@@ -1,5 +1,10 @@
 <script>
+	import { fly, fade } from 'svelte/transition';
+	import { quintOut } from 'svelte/easing';
+	import { page } from '$app/stores';
+
 	let y = $state(0);
+	let showMobileMenu = $state(false);
 </script>
 
 <svelte:window bind:scrollY={y} />
@@ -32,7 +37,14 @@
 					</a>
 				</div>
 				<div class="block lg:hidden">
-					<a href="." class="">
+					<a
+						href="."
+						class=""
+						onclick={(e) => {
+							e.preventDefault();
+							showMobileMenu = true;
+						}}
+					>
 						<img src="/menu.svg" alt="Menu" class="h-7" />
 					</a>
 				</div>
@@ -40,3 +52,67 @@
 		</div>
 	</div>
 </nav>
+
+{#if showMobileMenu}
+	<div
+		in:fly={{ duration: 500, x: 700, ease: quintOut, opacity: 1 }}
+		out:fade={{ duration: 100 }}
+		class="fixed top-0 left-0 z-[999999999999999999] flex h-full w-full flex-col items-center justify-center bg-darkBackground"
+	>
+		<a
+			href="."
+			class="absolute top-4 right-4"
+			onclick={(e) => {
+				e.preventDefault();
+				showMobileMenu = false;
+			}}
+		>
+			<img src="/close.svg" alt="" class="h-10 w-auto" />
+		</a>
+		<p class="relative text-white">
+			<a
+				onclick={() => {
+					showMobileMenu = false;
+				}}
+				href="/"
+				class="font-bi text-center text-4xl font-normal">Home</a
+			>
+		</p>
+		<p class="relative text-white">
+			<a
+				onclick={() => {
+					showMobileMenu = false;
+				}}
+				href="/about"
+				class="font-bi text-center text-4xl font-normal">About</a
+			>
+		</p>
+		<p class="relative text-white">
+			<a
+				onclick={() => {
+					showMobileMenu = false;
+				}}
+				href="/services"
+				class="font-bi text-center text-4xl font-normal">Services</a
+			>
+		</p>
+		<p class="relative text-white">
+			<a
+				onclick={() => {
+					showMobileMenu = false;
+				}}
+				href="/work"
+				class="font-bi text-center text-4xl font-normal">Work</a
+			>
+		</p>
+		<p class="relative text-white">
+			<a
+				onclick={() => {
+					showMobileMenu = false;
+				}}
+				href="/contact"
+				class="font-bi text-center text-4xl font-normal">Contact</a
+			>
+		</p>
+	</div>
+{/if}

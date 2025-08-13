@@ -4,7 +4,7 @@
 			<div class="w-full lg:w-[300px]">
 				<img src="/bm_black.svg" alt="Big Moon Digital Solutions" class="h-28" />
 				<p class="mt-5 font-poppins text-lg font-light text-black">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+					We can build you the greatest damn website.
 				</p>
 				<!-- <p class="mb-5 font-poppins text-lg font-light text-black">615-230-1232</p> -->
 			</div>
