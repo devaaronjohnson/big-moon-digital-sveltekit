@@ -1,0 +1,87 @@
+@import 'tailwindcss';
+
+
+
+@font-face {
+	font-family: 'Urbanist';
+	src: url('./fonts/Urbanist-Black.ttf') format('truetype');
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: 'Urbanist';
+	src: url('./fonts/Urbanist-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: 'Urbanist';
+	src: url('./fonts/Urbanist-Bold.ttf') format('truetype');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Urbanist';
+	src: url('./fonts/Urbanist-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Urbanist';
+	src: url('./fonts/Urbanist-Medium.ttf') format('truetype');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Urbanist';
+	src: url('./fonts/Urbanist-Regular.ttf') format('truetype');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Urbanist';
+	src: url('./fonts/Urbanist-Light.ttf') format('truetype');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('./fonts/Poppins-Medium.ttf') format('truetype');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('./fonts/Poppins-Light.ttf') format('truetype');
+	font-weight: 300;
+}
+
+.container_2xl {
+	@apply mx-auto w-full max-w-screen-2xl;
+}
+
+.container_xl {
+	@apply mx-auto w-full max-w-screen-xl;
+}
+
+.container_lg {
+	@apply mx-auto w-full max-w-screen-lg;
+}
+
+.container_md {
+	@apply mx-auto w-full max-w-screen-md;
+}
+
+@theme {
+	--color-lightBlue: #2993D0;
+	--color-darkBlue: #0977B9;
+	--color-darkBackground: #12141d;
+	--font-urbanist: 'Urbanist', sans-serif;
+	--font-poppins: 'Poppins', sans-serif;
+}
