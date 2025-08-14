@@ -7,7 +7,7 @@
 					<h1
 						class="mb-6 font-urbanist text-4xl leading-[1.1] font-normal text-pretty text-white lg:text-7xl"
 					>
-						Wordpress Development
+						Headless Wordpress Development
 					</h1>
 					<p class="mb-7 font-poppins text-xl font-light text-white">
 						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam animi eveniet temporibus
