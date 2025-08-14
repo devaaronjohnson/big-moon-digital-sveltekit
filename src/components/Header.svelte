@@ -29,7 +29,7 @@
 							<a href="/about">About</a>
 						</li>
 						<li class="font-poppins font-light text-white">
-							<a href="/web-development">Web Development</a>
+							<a href="/wordpress-development">Wordpress Development</a>
 						</li>
 						<li class="font-poppins font-light text-white">Portfolio</li>
 						<li class="font-poppins font-light text-white">Blog</li>
@@ -100,8 +100,8 @@
 				onclick={() => {
 					showMobileMenu = false;
 				}}
-				href="/web-development"
-				class="font-bi text-center text-4xl font-normal">Web Development</a
+				href="/wordpress-development"
+				class="font-bi text-center text-4xl font-normal">Wordpress Development</a
 			>
 		</p>
 		<p class="relative text-white">

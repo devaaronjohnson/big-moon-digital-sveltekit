@@ -2,7 +2,7 @@
 	<header class="relative bg-darkBackground pt-32 pb-10 lg:pt-44 lg:pb-20">
 		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-10" />
 		<div class="container_xl px-5 2xl:px-0">
-			<div class="flex flex-col items-center gap-20 lg:flex-row">
+			<div class="flex flex-col items-center gap-10 lg:flex-row lg:gap-20">
 				<div class="flex-1">
 					<h1
 						class="mb-6 font-urbanist text-4xl leading-[1.1] font-normal text-pretty text-white lg:text-7xl"
@@ -23,12 +23,16 @@
 					</div>
 				</div>
 				<div class="flex-1">
-					<img src="/sample.jpg" alt="" class="rounded-4xl border-12 border-white/20" />
+					<img
+						src="/wordpress_hero.jpg"
+						alt=""
+						class="w-full rounded-4xl border-12 border-white/20"
+					/>
 				</div>
 			</div>
 		</div>
 	</header>
-	<section class="pt-10 pb-10 lg:pt-20 lg:pb-20">
+	<section class="pt-10 pb-20 lg:pt-20 lg:pb-44">
 		<div class="container_lg px-5 2xl:px-0">
 			<h2 class="mb-6 text-center font-urbanist text-4xl font-normal lg:text-5xl">
 				Websites Built for Speed & Results
@@ -41,7 +45,66 @@
 			</p>
 		</div>
 	</section>
-	<section class="relative bg-darkBackground pt-10 pb-10 lg:pt-20 lg:pb-20">
+	<section class="relative bg-darkBackground">
+		<div class="container_lg px-5 2xl:px-0">
+			<div class="-translate-y-16 lg:-translate-y-32">
+				<img src="/wordpress.jpg" alt="" class="w-full rounded-4xl" />
+				<div class="mt-10 flex flex-col items-center justify-center gap-10 lg:mt-16 lg:flex-row">
+					<p class="flex items-center gap-2 font-poppins text-xl font-light text-white">
+						<img src="/blue_check.svg" alt="" class="h-7 w-7" />
+						Familiar CMS
+					</p>
+					<p class="flex items-center gap-2 font-poppins text-xl font-light text-white">
+						<img src="/blue_check.svg" alt="" class="h-7 w-7" />
+						Easy to Manage Content
+					</p>
+					<p class="flex items-center gap-2 font-poppins text-xl font-light text-white">
+						<img src="/blue_check.svg" alt="" class="h-7 w-7" />
+						Rapid Development
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bg-[#f3f3f3] pt-10 pb-10 lg:pt-20 lg:pb-20">
+		<div class="container_xl px-5 2xl:px-0">
+			<h2
+				class="mb-5 text-center font-urbanist text-4xl leading-[1.1] font-normal text-balance lg:text-5xl"
+			>
+				Our Wordpress Process
+			</h2>
+			<div class="mt-10 grid grid-cols-1 gap-10 lg:mt-20 lg:grid-cols-3">
+				<div class="rounded-4xl border border-[#ddd] bg-white p-12 shadow-lg">
+					<div class="mb-5 flex items-center justify-center">
+						<img src="/glass.svg" alt="" class="h-12" />
+					</div>
+					<p class="mb-5 text-center font-urbanist text-3xl font-normal">1. Plan & Architect</p>
+					<p class="mb-5 text-center font-poppins text-lg font-light">
+						We dive deep into your goals and must-haves to craft a battle plan.
+					</p>
+				</div>
+				<div class="rounded-4xl border border-[#ddd] bg-white p-12 shadow-lg">
+					<div class="mb-5 flex items-center justify-center">
+						<img src="/compass.svg" alt="" class="h-12" />
+					</div>
+					<p class="mb-5 text-center font-urbanist text-3xl font-normal">2. Build & Optimize</p>
+					<p class="mb-5 text-center font-poppins text-lg font-light">
+						We dive deep into your goals and must-haves to craft a battle plan.
+					</p>
+				</div>
+				<div class="rounded-4xl border border-[#ddd] bg-white p-12 shadow-lg">
+					<div class="mb-5 flex items-center justify-center">
+						<img src="/rocket.svg" alt="" class="h-12" />
+					</div>
+					<p class="mb-5 text-center font-urbanist text-3xl font-normal">Launch & Scale</p>
+					<p class="mb-5 text-center font-poppins text-lg font-light">
+						We dive deep into your goals and must-haves to craft a battle plan.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="relative overflow-hidden bg-darkBackground pt-10 pb-10 lg:pt-20 lg:pb-20">
 		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-0 w-[90%] opacity-10" />
 		<div class="container_lg relative px-5 2xl:px-0">
 			<h2 class="mb-7 text-center font-urbanist text-4xl font-normal text-white lg:text-5xl">
