@@ -28,13 +28,17 @@
 						<li class="font-poppins font-light text-white">
 							<a href="/about">About</a>
 						</li>
-						<li class="font-poppins font-light text-white">Services</li>
+						<li class="font-poppins font-light text-white">
+							<a href="/web-development">Web Development</a>
+						</li>
 						<li class="font-poppins font-light text-white">Portfolio</li>
 						<li class="font-poppins font-light text-white">Blog</li>
 						<li class="font-poppins font-light text-white">Contact</li>
 					</ul>
 					<a
-						href="."
+						href="https://calendly.com/aaronjohnsondev/30min"
+						target="_blank"
+						aria-label="Opens in a new tab"
 						class="ml-10 hidden rounded-full border border-lightBlue bg-lightBlue px-7 py-3 font-poppins text-white transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue lg:block"
 					>
 						Schedule a Call
@@ -96,8 +100,8 @@
 				onclick={() => {
 					showMobileMenu = false;
 				}}
-				href="/services"
-				class="font-bi text-center text-4xl font-normal">Services</a
+				href="/web-development"
+				class="font-bi text-center text-4xl font-normal">Web Development</a
 			>
 		</p>
 		<p class="relative text-white">
