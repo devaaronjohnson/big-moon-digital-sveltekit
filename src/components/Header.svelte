@@ -18,12 +18,16 @@
 	<div class="container_2xl px-5 2xl:px-0">
 		<div class="flex w-full flex-row items-center justify-between">
 			<div class="w-auto">
-				<img src="/bmd_logo_white.svg" alt="BMD Logo" class="h-12 w-auto lg:h-16" />
+				<a href="/">
+					<img src="/bmd_logo_white.svg" alt="BMD Logo" class="h-12 w-auto lg:h-16" />
+				</a>
 			</div>
 			<div class="flex flex-1 justify-end">
 				<div class="hidden flex-row items-center justify-end lg:flex">
 					<ul class="flex flex-row items-center gap-10">
-						<li class="font-poppins font-light text-white">About</li>
+						<li class="font-poppins font-light text-white">
+							<a href="/about">About</a>
+						</li>
 						<li class="font-poppins font-light text-white">Services</li>
 						<li class="font-poppins font-light text-white">Portfolio</li>
 						<li class="font-poppins font-light text-white">Blog</li>
