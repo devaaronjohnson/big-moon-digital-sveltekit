@@ -31,6 +31,9 @@
 						<li class="font-poppins font-light text-white">
 							<a href="/wordpress-development">Wordpress Development</a>
 						</li>
+						<li class="font-poppins font-light text-white">
+							<a href="/headless-wordpress-development">Headless Wordpress Development</a>
+						</li>
 						<li class="font-poppins font-light text-white">Portfolio</li>
 						<li class="font-poppins font-light text-white">Blog</li>
 						<li class="font-poppins font-light text-white">Contact</li>
@@ -102,6 +105,15 @@
 				}}
 				href="/wordpress-development"
 				class="font-bi text-center text-4xl font-normal">Wordpress Development</a
+			>
+		</p>
+		<p class="relative text-white">
+			<a
+				onclick={() => {
+					showMobileMenu = false;
+				}}
+				href="/headless-wordpress-development"
+				class="font-bi text-center text-4xl font-normal">Headless Wordpress Development</a
 			>
 		</p>
 		<p class="relative text-white">
