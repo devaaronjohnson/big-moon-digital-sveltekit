@@ -5,7 +5,7 @@
 			<div class="flex flex-col items-center gap-10 lg:flex-row lg:gap-20">
 				<div class="flex-1">
 					<h1
-						class="mb-6 font-urbanist text-4xl leading-[1.1] font-normal text-pretty text-white lg:text-7xl"
+						class="mb-6 font-urbanist text-4xl leading-[1.1] font-bold text-pretty text-white lg:text-7xl"
 					>
 						Wordpress Development
 					</h1>

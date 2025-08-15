@@ -6,7 +6,7 @@
 		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-10" />
 		<div class="container_xl relative px-5 2xl:px-0">
 			<h1
-				class="mb-6 w-4/5 font-urbanist text-4xl leading-[1.1] font-normal text-pretty text-white lg:text-7xl"
+				class="mb-6 w-4/5 font-urbanist text-4xl leading-[1.1] font-bold text-pretty text-white lg:text-7xl"
 			>
 				We Design & Build Digital Experiences That Move the Needle
 			</h1>
