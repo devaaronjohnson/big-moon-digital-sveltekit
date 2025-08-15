@@ -2,9 +2,11 @@
 	import { fly, fade } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 	import { page } from '$app/stores';
+	import { clickOutside } from '$utils/clickOutside';
 
 	let y = $state(0);
 	let showMobileMenu = $state(false);
+	let showServices = $state(false);
 </script>
 
 <svelte:window bind:scrollY={y} />
@@ -25,24 +27,55 @@
 			<div class="flex flex-1 justify-end">
 				<div class="hidden flex-row items-center justify-end lg:flex">
 					<ul class="flex flex-row items-center gap-10">
-						<li class="font-poppins font-light text-white">
+						<li class="font-karla font-light text-white">
 							<a href="/about">About</a>
 						</li>
-						<li class="font-poppins font-light text-white">
-							<a href="/wordpress-development">Wordpress Development</a>
+						<li
+							use:clickOutside
+							onclick_outside={() => (showServices = false)}
+							class="relative font-karla font-light text-white"
+						>
+							<a
+								onclick={(e) => {
+									e.preventDefault();
+									showServices = !showServices;
+								}}
+								href="."
+								class="flex items-center gap-2"
+								>Services <img src="/caret_down.svg" alt="" class="h-1.5" /></a
+							>
+							{#if showServices}
+								<div
+									in:fade={{ duration: 150 }}
+									out:fade={{ duration: 100 }}
+									class="absolute top-7 left-0 w-max rounded bg-white px-4 py-3 shadow-lg"
+								>
+									<ul>
+										<li class="font-karla text-base leading-relaxed font-light text-black">
+											<a href="." class="relative"> Wordpress Development </a>
+										</li>
+										<li class="font-karla text-base leading-relaxed font-light text-black">
+											<a href="." class="relative"> Headless Development </a>
+										</li>
+										<li class="font-karla text-base leading-relaxed font-light text-black">
+											<a href="." class="relative"> Javascript Development </a>
+										</li>
+										<li class="font-karla text-base leading-relaxed font-light text-black">
+											<a href="." class="relative"> Web Design </a>
+										</li>
+									</ul>
+								</div>
+							{/if}
 						</li>
-						<li class="font-poppins font-light text-white">
-							<a href="/headless-wordpress-development">Headless Wordpress Development</a>
-						</li>
-						<li class="font-poppins font-light text-white">Portfolio</li>
-						<li class="font-poppins font-light text-white">Blog</li>
-						<li class="font-poppins font-light text-white">Contact</li>
+						<li class="font-karla font-light text-white">Portfolio</li>
+						<li class="font-karla font-light text-white">Blog</li>
+						<li class="font-karla font-light text-white">Contact</li>
 					</ul>
 					<a
 						href="https://calendly.com/aaronjohnsondev/30min"
 						target="_blank"
 						aria-label="Opens in a new tab"
-						class="ml-10 hidden rounded-full border border-lightBlue bg-lightBlue px-7 py-3 font-poppins text-white transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue lg:block"
+						class="ml-10 hidden rounded-full border border-lightBlue bg-lightBlue px-7 py-3 font-karla text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue lg:block"
 					>
 						Schedule a Call
 					</a>
