@@ -59,11 +59,11 @@
 		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-40" />
 		<div class="container_xl relative px-5 2xl:px-0">
 			<h2 class="mb-10 text-center font-rubik text-4xl font-normal lg:mb-20 lg:text-5xl">
-				Services We Offer
+				Our Services
 			</h2>
 			<div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
-				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-16">
-					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">1. UI/UX & Web Design</h3>
+				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
+					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">Web Design</h3>
 					<p class="mb-5 font-karla text-lg font-light">
 						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
 						design with outcomes
@@ -74,35 +74,33 @@
 						<li class="font-karla text-lg font-light">Prototypes in 72 hours or less</li>
 					</ul>
 				</div>
-				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-16">
+				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
+					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">Wordpress Development</h3>
+					<p class="mb-5 font-karla text-lg font-light">
+						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
+						design with outcomes
+					</p>
+					<ul class="list-disc pl-5">
+						<li class="font-karla text-lg font-light">User flows that boost engagement</li>
+						<li class="font-karla text-lg font-light">Mobile-first, award worthy interfaces</li>
+						<li class="font-karla text-lg font-light">Prototypes in 72 hours or less</li>
+					</ul>
+				</div>
+				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
+					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">Headless Wordpress</h3>
+					<p class="mb-5 font-karla text-lg font-light">
+						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
+						design with outcomes
+					</p>
+					<ul class="list-disc pl-5">
+						<li class="font-karla text-lg font-light">User flows that boost engagement</li>
+						<li class="font-karla text-lg font-light">Mobile-first, award worthy interfaces</li>
+						<li class="font-karla text-lg font-light">Prototypes in 72 hours or less</li>
+					</ul>
+				</div>
+				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
 					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">
-						2. Wordpress Development
-					</h3>
-					<p class="mb-5 font-karla text-lg font-light">
-						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
-						design with outcomes
-					</p>
-					<ul class="list-disc pl-5">
-						<li class="font-karla text-lg font-light">User flows that boost engagement</li>
-						<li class="font-karla text-lg font-light">Mobile-first, award worthy interfaces</li>
-						<li class="font-karla text-lg font-light">Prototypes in 72 hours or less</li>
-					</ul>
-				</div>
-				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-16">
-					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">3. Headless Wordpress</h3>
-					<p class="mb-5 font-karla text-lg font-light">
-						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
-						design with outcomes
-					</p>
-					<ul class="list-disc pl-5">
-						<li class="font-karla text-lg font-light">User flows that boost engagement</li>
-						<li class="font-karla text-lg font-light">Mobile-first, award worthy interfaces</li>
-						<li class="font-karla text-lg font-light">Prototypes in 72 hours or less</li>
-					</ul>
-				</div>
-				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-16">
-					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">
-						4. Javascript Development
+						Javascript Development
 					</h3>
 					<p class="mb-5 font-karla text-lg font-light">
 						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
@@ -120,7 +118,7 @@
 	<section class="relative bg-darkBackground py-10 lg:py-20">
 		<div class="container_xl px-5 2xl:px-0">
 			<h2 class="mb-10 text-center font-rubik text-4xl font-normal text-white lg:mb-20 lg:text-5xl">
-				Some of Our Work
+				Our Work
 			</h2>
 			<div class="grid grid-cols-1 gap-20 lg:grid-cols-2">
 				<div class="relative">
