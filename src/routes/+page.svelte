@@ -36,7 +36,7 @@
 						Unforgettable, Websites, Brands & Visuals for Bold Visionaries.
 					</h2>
 					<p class="mb-5 font-karla text-xl font-light">
-						We’re not your typical design agency. Founded in 2014, we’re a collective of designers,
+						We're not your typical design agency. Founded in 2014, we're a collective of designers,
 						developers, and strategists who believe great digital experiences should be beautiful,
 						functional, and human-centered. From startups to global brands, we help ambitious
 						businesses stand out.
@@ -64,52 +64,52 @@
 			<div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
 					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">Web Design</h3>
-					<p class="mb-5 font-karla text-lg font-light">
+					<p class="mb-5 font-karla text-xl font-light">
 						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
 						design with outcomes
 					</p>
 					<ul class="list-disc pl-5">
-						<li class="font-karla text-lg font-light">User flows that boost engagement</li>
-						<li class="font-karla text-lg font-light">Mobile-first, award worthy interfaces</li>
-						<li class="font-karla text-lg font-light">Prototypes in 72 hours or less</li>
+						<li class="font-karla text-xl font-light">User flows that boost engagement</li>
+						<li class="font-karla text-xl font-light">Mobile-first, award worthy interfaces</li>
+						<li class="font-karla text-xl font-light">Prototypes in 72 hours or less</li>
 					</ul>
 				</div>
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
 					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">Wordpress Development</h3>
-					<p class="mb-5 font-karla text-lg font-light">
+					<p class="mb-5 font-karla text-xl font-light">
 						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
 						design with outcomes
 					</p>
 					<ul class="list-disc pl-5">
-						<li class="font-karla text-lg font-light">User flows that boost engagement</li>
-						<li class="font-karla text-lg font-light">Mobile-first, award worthy interfaces</li>
-						<li class="font-karla text-lg font-light">Prototypes in 72 hours or less</li>
+						<li class="font-karla text-xl font-light">User flows that boost engagement</li>
+						<li class="font-karla text-xl font-light">Mobile-first, award worthy interfaces</li>
+						<li class="font-karla text-xl font-light">Prototypes in 72 hours or less</li>
 					</ul>
 				</div>
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
 					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">Headless Wordpress</h3>
-					<p class="mb-5 font-karla text-lg font-light">
+					<p class="mb-5 font-karla text-xl font-light">
 						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
 						design with outcomes
 					</p>
 					<ul class="list-disc pl-5">
-						<li class="font-karla text-lg font-light">User flows that boost engagement</li>
-						<li class="font-karla text-lg font-light">Mobile-first, award worthy interfaces</li>
-						<li class="font-karla text-lg font-light">Prototypes in 72 hours or less</li>
+						<li class="font-karla text-xl font-light">User flows that boost engagement</li>
+						<li class="font-karla text-xl font-light">Mobile-first, award worthy interfaces</li>
+						<li class="font-karla text-xl font-light">Prototypes in 72 hours or less</li>
 					</ul>
 				</div>
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
 					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">
 						Javascript Development
 					</h3>
-					<p class="mb-5 font-karla text-lg font-light">
+					<p class="mb-5 font-karla text-xl font-light">
 						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
 						design with outcomes
 					</p>
 					<ul class="list-disc pl-5">
-						<li class="font-karla text-lg font-light">User flows that boost engagement</li>
-						<li class="font-karla text-lg font-light">Mobile-first, award worthy interfaces</li>
-						<li class="font-karla text-lg font-light">Prototypes in 72 hours or less</li>
+						<li class="font-karla text-xl font-light">User flows that boost engagement</li>
+						<li class="font-karla text-xl font-light">Mobile-first, award worthy interfaces</li>
+						<li class="font-karla text-xl font-light">Prototypes in 72 hours or less</li>
 					</ul>
 				</div>
 			</div>
@@ -159,7 +159,9 @@
 						</a>
 					</div>
 
-					<h3 class="mb-5 text-3xl font-normal text-white lg:text-4xl">Connie Chadwick Law</h3>
+					<h3 class="mb-5 font-rubik text-3xl font-normal text-white lg:text-4xl">
+						Connie Chadwick Law
+					</h3>
 					<div class="flex flex-row flex-wrap items-center gap-3">
 						<ProjectPill text="Web Design" />
 						<ProjectPill text="Headless Wordpress" />
