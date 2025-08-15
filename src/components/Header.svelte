@@ -52,6 +52,9 @@
 								>
 									<ul>
 										<li class="font-karla text-base leading-relaxed font-light text-black">
+											<a href="." class="relative"> Web Design </a>
+										</li>
+										<li class="font-karla text-base leading-relaxed font-light text-black">
 											<a href="." class="relative"> Wordpress Development </a>
 										</li>
 										<li class="font-karla text-base leading-relaxed font-light text-black">
@@ -59,9 +62,6 @@
 										</li>
 										<li class="font-karla text-base leading-relaxed font-light text-black">
 											<a href="." class="relative"> Javascript Development </a>
-										</li>
-										<li class="font-karla text-base leading-relaxed font-light text-black">
-											<a href="." class="relative"> Web Design </a>
 										</li>
 									</ul>
 								</div>

@@ -34,6 +34,9 @@
 					<li class="font-karla text-lg leading-loose font-light">
 						<a href="/">Headless Wordpress</a>
 					</li>
+					<li class="font-karla text-lg leading-loose font-light">
+						<a href="/">Javascript Development</a>
+					</li>
 				</ul>
 			</div>
 			<div class="w-full pt-0 lg:w-[200px] lg:pt-20">
@@ -41,7 +44,7 @@
 				<ul>
 					<li class="flex items-center gap-2 font-karla text-lg leading-loose font-light">
 						<img src="/phone.svg" alt="Phone" class="h-5" />
-						<a href="/">629-123-1232</a>
+						<a href="/">629-256-2800</a>
 					</li>
 					<li class="flex items-center gap-2 font-karla text-lg leading-loose font-light">
 						<img src="/mail.svg" alt="Email" class="h-5" />
