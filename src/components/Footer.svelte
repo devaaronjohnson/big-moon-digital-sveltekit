@@ -15,10 +15,10 @@
 						<a href="/">Home</a>
 					</li>
 					<li class="font-karla text-lg leading-loose font-light">
-						<a href="/">About</a>
+						<a href="/about">About</a>
 					</li>
 					<li class="font-karla text-lg leading-loose font-light">
-						<a href="/">Services</a>
+						<a href="/contact">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -29,10 +29,10 @@
 						<a href="/">Web Design</a>
 					</li>
 					<li class="font-karla text-lg leading-loose font-light">
-						<a href="/">Wordpress Development</a>
+						<a href="/wordpress-development">Wordpress Development</a>
 					</li>
 					<li class="font-karla text-lg leading-loose font-light">
-						<a href="/">Headless Wordpress</a>
+						<a href="/headless-wordpress">Headless Wordpress</a>
 					</li>
 					<li class="font-karla text-lg leading-loose font-light">
 						<a href="/">Javascript Development</a>
