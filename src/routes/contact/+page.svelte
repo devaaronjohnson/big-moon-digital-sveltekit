@@ -4,9 +4,9 @@
 	let phone = $state('');
 	let message = $state('');
 
-	function submitForm() {
-		console.log('Submit form');
-	}
+	// function submitForm() {
+	// 	console.log('Submit form');
+	// }
 </script>
 
 <main>
@@ -23,9 +23,7 @@
 				</p>
 			</div>
 			<div class="w-full lg:flex-1">
-				<form onsubmit={() => {
-                    submitForm();
-                }>
+				<form>
 					<div class="mb-5">
 						<label for="name" class="mb-1 block w-full font-rubik text-lg font-normal text-white"
 							>Your Name</label
