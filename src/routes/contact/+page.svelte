@@ -72,7 +72,7 @@
 					<button
 						type="submit"
 						class="rounded-full border border-lightBlue bg-lightBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
-						>Submit Enquiry</button
+						>Submit Form</button
 					>
 				</form>
 			</div>
