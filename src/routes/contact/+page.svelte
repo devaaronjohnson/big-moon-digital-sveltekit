@@ -1,8 +1,8 @@
 <script>
-	let name = $state('');
-	let email = $state('');
-	let phone = $state('');
-	let message = $state('');
+	// let name = $state('');
+	// let email = $state('');
+	// let phone = $state('');
+	// let message = $state('');
 
 	// function submitForm() {
 	// 	console.log('Submit form');
