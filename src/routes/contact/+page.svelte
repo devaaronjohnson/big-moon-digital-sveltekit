@@ -23,7 +23,9 @@
 				</p>
 			</div>
 			<div class="w-full lg:flex-1">
-				<form onsubmit={submitForm}>
+				<form onsubmit={() => {
+                    submitForm();
+                }>
 					<div class="mb-5">
 						<label for="name" class="mb-1 block w-full font-rubik text-lg font-normal text-white"
 							>Your Name</label
