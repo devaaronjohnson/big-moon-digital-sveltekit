@@ -23,7 +23,7 @@
 				</p>
 			</div>
 			<div class="w-full lg:flex-1">
-				<form>
+				<!-- <form>
 					<div class="mb-5">
 						<label for="name" class="mb-1 block w-full font-rubik text-lg font-normal text-white"
 							>Your Name</label
@@ -74,7 +74,7 @@
 						class="rounded-full border border-lightBlue bg-lightBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
 						>Submit Form</button
 					>
-				</form>
+				</form> -->
 			</div>
 		</div>
 	</section>
