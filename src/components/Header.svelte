@@ -52,16 +52,48 @@
 								>
 									<ul>
 										<li class="font-karla text-base leading-relaxed font-light text-black">
-											<a href="." class="relative"> Web Design </a>
+											<a
+												onclick={() => {
+													showServices = false;
+												}}
+												href="/web-design"
+												class="relative"
+											>
+												Web Design
+											</a>
 										</li>
 										<li class="font-karla text-base leading-relaxed font-light text-black">
-											<a href="." class="relative"> Wordpress Development </a>
+											<a
+												onclick={() => {
+													showServices = false;
+												}}
+												href="/wordpress-development"
+												class="relative"
+											>
+												Wordpress Development
+											</a>
 										</li>
 										<li class="font-karla text-base leading-relaxed font-light text-black">
-											<a href="." class="relative"> Headless Development </a>
+											<a
+												onclick={() => {
+													showServices = false;
+												}}
+												href="/headless-wordpress"
+												class="relative"
+											>
+												Headless Wordpress
+											</a>
 										</li>
 										<li class="font-karla text-base leading-relaxed font-light text-black">
-											<a href="." class="relative"> Javascript Development </a>
+											<a
+												onclick={() => {
+													showServices = false;
+												}}
+												href="/javascript-development"
+												class="relative"
+											>
+												Javascript Development
+											</a>
 										</li>
 									</ul>
 								</div>
@@ -69,7 +101,17 @@
 						</li>
 						<li class="font-karla font-light text-white">Portfolio</li>
 						<li class="font-karla font-light text-white">Blog</li>
-						<li class="font-karla font-light text-white">Contact</li>
+						<li class="font-karla font-light text-white">
+							<a
+								onclick={() => {
+									showServices = false;
+								}}
+								href="/contact"
+								class="relative"
+							>
+								Contact
+							</a>
+						</li>
 					</ul>
 					<a
 						href="https://calendly.com/aaronjohnsondev/30min"
@@ -136,6 +178,15 @@
 				onclick={() => {
 					showMobileMenu = false;
 				}}
+				href="/web-design"
+				class="font-bi text-center text-4xl font-normal">Web Design</a
+			>
+		</p>
+		<p class="relative text-white">
+			<a
+				onclick={() => {
+					showMobileMenu = false;
+				}}
 				href="/wordpress-development"
 				class="font-bi text-center text-4xl font-normal">Wordpress Development</a
 			>
@@ -145,8 +196,17 @@
 				onclick={() => {
 					showMobileMenu = false;
 				}}
-				href="/headless-wordpress-development"
-				class="font-bi text-center text-4xl font-normal">Headless Wordpress Development</a
+				href="/headless-wordpress"
+				class="font-bi text-center text-4xl font-normal">Headless Wordpress</a
+			>
+		</p>
+		<p class="relative text-white">
+			<a
+				onclick={() => {
+					showMobileMenu = false;
+				}}
+				href="/javascript-development"
+				class="font-bi text-center text-4xl font-normal">Javascript Development</a
 			>
 		</p>
 		<p class="relative text-white">

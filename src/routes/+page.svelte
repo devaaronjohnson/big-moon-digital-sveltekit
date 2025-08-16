@@ -176,7 +176,7 @@
 			<h2 class="mb-7 text-center font-rubik text-4xl font-normal lg:text-5xl">
 				Let's talk about your next project.
 			</h2>
-			<p class="mb-5 px-0 text-center font-karla text-lg font-light text-balance lg:px-40">
+			<p class="mb-5 px-0 text-center font-karla text-xl font-light text-balance lg:px-40">
 				Get a free 30 minute consultation to discuss your project to see if we can build something
 				great!
 			</p>
