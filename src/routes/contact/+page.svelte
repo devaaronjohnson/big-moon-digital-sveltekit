@@ -11,8 +11,14 @@
 
 <main>
 	<section class="relative bg-darkBackground pt-48 pb-20">
-		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-10" />
-		<div class="container_xl relative flex flex-col items-start gap-20 px-5 lg:flex-row 2xl:px-0">
+		<img
+			src="/digital_moon.svg"
+			alt=""
+			class="absolute top-0 left-[50%] hidden w-full opacity-[0.02] lg:block"
+		/>
+		<div
+			class="container_xl relative flex flex-col items-start gap-10 px-5 lg:flex-row lg:gap-20 2xl:px-0"
+		>
 			<div class="w-full lg:w-2/5">
 				<h1 class="mb-5 font-rubik text-6xl leading-[1.1] font-bold text-white">
 					Let's Build Something Awesome!
@@ -22,22 +28,22 @@
 					corporis rem, repellendus error eos sequi consequatur officiis.
 				</p>
 			</div>
-			<div class="w-full lg:flex-1">
+			<div class="relative w-full lg:flex-1">
 				<form>
 					<div class="mb-5">
 						<label for="name" class="mb-1 block w-full font-rubik text-lg font-normal text-white"
-							>Your Name</label
+							>Your Name *</label
 						>
 						<input
 							id="name"
 							type="text"
 							bind:value={name}
-							class="w-full rounded-lg border border-white/50 bg-white/2 p-4 font-karla font-light"
+							class="w-full rounded-lg border border-white/50 bg-white/2 p-4 font-karla text-xl font-light text-white transition-all duration-200 hover:border-lightBlue focus:border-lightBlue focus:outline-none"
 						/>
 					</div>
 					<div class="mb-5">
 						<label for="email" class="mb-1 block w-full font-rubik text-lg font-normal text-white"
-							>Your Email</label
+							>Your Email *</label
 						>
 						<input
 							id="email"

@@ -1,6 +1,6 @@
 <main class="relative overflow-x-hidden">
 	<header class="relative bg-darkBackground pt-32 pb-10 lg:pt-44 lg:pb-20">
-		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-10" />
+		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-[0.03]" />
 		<div class="container_xl px-5 2xl:px-0">
 			<div class="flex flex-col items-center gap-10 lg:flex-row lg:gap-20">
 				<div class="flex-1">
@@ -107,7 +107,7 @@
 		</div>
 	</section>
 	<section class="relative overflow-hidden bg-darkBackground pt-10 pb-10 lg:pt-20 lg:pb-20">
-		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-0 w-[90%] opacity-10" />
+		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-0 w-[90%] opacity-[0.03]" />
 		<div class="container_lg relative px-5 2xl:px-0">
 			<h2 class="mb-7 text-center font-rubik text-4xl font-normal text-white lg:text-5xl">
 				Let's talk about your next project.

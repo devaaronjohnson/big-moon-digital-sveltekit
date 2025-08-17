@@ -3,7 +3,7 @@
 
 <main class="relative overflow-hidden">
 	<header class="relative bg-darkBackground pt-32 pb-10 lg:pt-44 lg:pb-20">
-		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-10" />
+		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-[0.03]" />
 		<div class="container_xl relative px-5 2xl:px-0">
 			<h1
 				class="mb-6 w-4/5 font-rubik text-4xl leading-[1.1] font-bold text-pretty text-white lg:text-7xl"
@@ -88,7 +88,7 @@
 		</div>
 	</section>
 	<section class="relative bg-darkBackground pt-10 pb-10 lg:pt-20 lg:pb-20">
-		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-0 w-[90%] opacity-10" />
+		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-0 w-[90%] opacity-[0.03]" />
 		<div class="container_lg relative px-5 2xl:px-0">
 			<h2 class="mb-7 text-center font-rubik text-4xl font-normal text-white lg:text-5xl">
 				Let's talk about your next project.
