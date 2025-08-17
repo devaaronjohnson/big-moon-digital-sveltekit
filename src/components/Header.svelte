@@ -99,8 +99,8 @@
 								</div>
 							{/if}
 						</li>
-						<li class="font-karla font-light text-white">Portfolio</li>
-						<li class="font-karla font-light text-white">Blog</li>
+						<!-- <li class="font-karla font-light text-white">Portfolio</li> -->
+						<!-- <li class="font-karla font-light text-white">Blog</li> -->
 						<li class="font-karla font-light text-white">
 							<a
 								onclick={() => {
