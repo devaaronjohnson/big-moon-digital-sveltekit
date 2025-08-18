@@ -98,7 +98,7 @@
 					<div class="mb-5 flex items-center justify-center">
 						<img src="/rocket.svg" alt="" class="h-12" />
 					</div>
-					<p class="mb-5 text-center font-rubik text-3xl font-normal">Launch & Scale</p>
+					<p class="mb-5 text-center font-rubik text-3xl font-normal">3. Launch & Scale</p>
 					<p class="mb-5 text-center font-karla text-lg font-light">
 						We dive deep into your goals and must-haves to craft a battle plan.
 					</p>
