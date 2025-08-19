@@ -46,7 +46,7 @@
 					</p>
 					<div class="flex items-center justify-center">
 						<p
-							class="rounded-full border border-darkBlue bg-transparent px-8 py-2 font-karla text-base font-normal text-darkBlue transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
+							class="rounded-full border-2 border-darkestBlue bg-transparent px-8 py-2 font-karla text-base font-normal text-darkestBlue transition-all duration-200"
 						>
 							Step 1
 						</p>
@@ -62,7 +62,7 @@
 					</p>
 					<div class="flex items-center justify-center">
 						<p
-							class="rounded-full border border-darkBlue bg-transparent px-8 py-2 font-karla text-base font-normal text-darkBlue transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
+							class="rounded-full border-2 border-darkestBlue bg-transparent px-8 py-2 font-karla text-base font-normal text-darkestBlue transition-all duration-200"
 						>
 							Step 2
 						</p>
@@ -78,7 +78,7 @@
 					</p>
 					<div class="flex items-center justify-center">
 						<p
-							class="rounded-full border border-darkBlue bg-transparent px-8 py-2 font-karla text-base font-normal text-darkBlue transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
+							class="rounded-full border-2 border-darkestBlue bg-transparent px-8 py-2 font-karla text-base font-normal text-darkestBlue transition-all duration-200"
 						>
 							Step 3
 						</p>
