@@ -80,7 +80,7 @@
 					</div>
 					<button
 						type="submit"
-						class="rounded-full border border-lightBlue bg-lightBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue focus:outline-none"
+						class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue focus:outline-none"
 						>Submit Form</button
 					>
 				</form>
@@ -101,7 +101,7 @@
 					href="https://calendly.com/aaronjohnsondev/30min"
 					target="_blank"
 					aria-label="Opens in a new tab"
-					class="rounded-full border border-lightBlue bg-lightBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
+					class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
 					>Book a Free Call</a
 				>
 			</div>
