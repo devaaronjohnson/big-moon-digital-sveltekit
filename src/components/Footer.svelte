@@ -43,11 +43,11 @@
 				<h4 class="mb-3 font-rubik text-2xl font-bold">Get In Touch</h4>
 				<ul>
 					<li class="flex items-center gap-2 font-karla text-lg leading-loose font-light">
-						<img src="/phone.svg" alt="Phone" class="h-5" />
+						<img src="/phone_blue.svg" alt="Phone" class="w-5" />
 						<a href="/">629-256-2800</a>
 					</li>
 					<li class="flex items-center gap-2 font-karla text-lg leading-loose font-light">
-						<img src="/mail.svg" alt="Email" class="h-5" />
+						<img src="/mail_blue.svg" alt="Email" class="w-5" />
 						<a href="/">hello@bigmoondigital.io</a>
 					</li>
 				</ul>
