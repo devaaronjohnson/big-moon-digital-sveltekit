@@ -10,9 +10,12 @@
 						Headless WordPress
 					</h1>
 					<p class="mb-7 font-karla text-xl font-light text-white">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam animi eveniet temporibus
-						repellat tenetur quia corrupti eum nisi fuga ad similique nemo, neque quos pariatur est
-						eius alias aliquam dolores.
+						Using WordPress as a headless CMS means you use WordPress only for managing and storing
+						content, while a separate front-end framework (like Nextjs or SvelteKit) handles how
+						that content is displayed. Instead of relying on WordPress themes and PHP templates, the
+						front end fetches data from WordPress through its REST API or GraphQL, giving you more
+						flexibility, faster performance, and modern development workflows while still leveraging
+						WordPress’s powerful editor and plugin ecosystem.
 					</p>
 					<div class="flex items-center justify-start">
 						<a
@@ -26,23 +29,91 @@
 					<img
 						src="/wordpress_hero.jpg"
 						alt=""
-						class="w-full rounded-4xl border-12 border-white/20"
+						class="w-full rounded-4xl border-12 border-white/10"
 					/>
 				</div>
 			</div>
 		</div>
 	</header>
 	<section class="pt-10 pb-20 lg:pt-20 lg:pb-44">
-		<div class="container_lg px-5 2xl:px-0">
-			<h2 class="mb-6 text-center font-rubik text-4xl font-normal lg:text-5xl">
-				Websites Built for Speed & Results
+		<div class="container_xl px-5 2xl:px-0">
+			<h2 class="mb-12 text-center font-rubik text-4xl font-normal lg:text-5xl">
+				What are the benefits?
 			</h2>
-			<p class="text-center font-karla text-xl font-light text-pretty">
+			<div class="grid grid-cols-1 gap-20 lg:grid-cols-3">
+				<div>
+					<p class="mb-3 text-center font-rubik text-3xl font-bold text-darkestBlue">Performance</p>
+					<p class="text-center font-karla text-xl font-light text-black">
+						By decoupling the front end, you can use fast frameworks like Next.js or SvelteKit to
+						deliver highly optimized, static, or server-side rendered pages, improving load times
+						and SEO.
+					</p>
+				</div>
+				<div>
+					<p class="mb-3 text-center font-rubik text-3xl font-bold text-darkestBlue">Flexibility</p>
+					<p class="text-center font-karla text-xl font-light text-black">
+						Developers aren’t limited by WordPress themes or PHP; they can build with modern
+						JavaScript frameworks, create custom designs, and integrate with other services more
+						easily.
+					</p>
+				</div>
+				<div>
+					<p class="mb-3 text-center font-rubik text-3xl font-bold text-darkestBlue">
+						Content Delivery
+					</p>
+					<p class="text-center font-karla text-xl font-light text-black">
+						Since content is served via API, the same WordPress backend can power not only your
+						website, but also mobile apps, IoT devices, and other digital experiences from a single
+						content source.
+					</p>
+				</div>
+			</div>
+			<h2 class="mt-20 mb-12 text-center font-rubik text-4xl font-normal lg:text-5xl">
+				What are the trade-offs?
+			</h2>
+			<div class="mb-10 grid grid-cols-1 gap-20 lg:grid-cols-3">
+				<div>
+					<p class="mb-3 text-center font-rubik text-3xl font-bold text-darkestBlue">
+						Loss of Features
+					</p>
+					<p class="text-center font-karla text-xl font-light text-black">
+						Things like themes, widgets, menus, and the WYSIWYG “preview” no longer work out of the
+						box. You need to rebuild those features on the front end.
+					</p>
+				</div>
+				<div>
+					<p class="mb-3 text-center font-rubik text-3xl font-bold text-darkestBlue">Complexity</p>
+					<p class="text-center font-karla text-xl font-light text-black">
+						A headless setup typically requires developers who know both WordPress (for content
+						modeling and APIs) and a modern front-end framework (React, Next.js, Vue, etc.). This
+						can increase build time and costs.
+					</p>
+				</div>
+				<div>
+					<p class="mb-3 text-center font-rubik text-3xl font-bold text-darkestBlue">
+						Additional Hosting
+					</p>
+					<p class="text-center font-karla text-xl font-light text-black">
+						Instead of one system, you’re maintaining both WordPress and a separate front-end app.
+						This means more moving parts (deployments, hosting, caching, security updates) to
+						manage.
+					</p>
+				</div>
+			</div>
+			<p class="mt-20 mb-12 text-center font-rubik text-4xl font-normal">Let's talk through it!</p>
+			<div class="flex items-center justify-center">
+				<a
+					href="/"
+					class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
+					>Schedule a Call</a
+				>
+			</div>
+			<!-- <p class="text-center font-karla text-xl font-light text-pretty">
 				Say goodbye to slow, clunky websites. We build lightning-fast, SEO-optimized Webflow sites
 				with custom CMS architectures, sleek animations, and editor-friendly interfaces. Whether you
 				need a marketing site or a scalable web app, we deliver performance and polish without
 				bloated code.
-			</p>
+			</p> -->
 		</div>
 	</section>
 	<section class="relative bg-darkBackground">
@@ -53,15 +124,15 @@
 					class="mt-10 flex flex-col items-start justify-center gap-5 lg:mt-16 lg:flex-row lg:items-center lg:gap-10"
 				>
 					<p class="flex items-center gap-2 font-karla text-xl font-light text-white">
-						<img src="/blue_check.svg" alt="" class="h-7 w-7" />
+						<img src="/circle_check.svg" alt="" class="h-7 w-7" />
 						Proven CMS
 					</p>
 					<p class="flex items-center gap-2 font-karla text-xl font-light text-white">
-						<img src="/blue_check.svg" alt="" class="h-7 w-7" />
+						<img src="/circle_check.svg" alt="" class="h-7 w-7" />
 						Easy to Manage Content
 					</p>
 					<p class="flex items-center gap-2 font-karla text-xl font-light text-white">
-						<img src="/blue_check.svg" alt="" class="h-7 w-7" />
+						<img src="/circle_check.svg" alt="" class="h-7 w-7" />
 						Rapid Development
 					</p>
 				</div>
