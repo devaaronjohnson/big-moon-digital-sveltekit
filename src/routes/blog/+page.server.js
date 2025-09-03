@@ -8,8 +8,6 @@ export async function load() {
 
     const posts = res.body.data.posts;
 
-    console.log(res);
-
     if (posts) {
         return { posts };
     }
