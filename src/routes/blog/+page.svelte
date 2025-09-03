@@ -2,6 +2,10 @@
 	import { BlogPill } from '$components';
 
 	const { data } = $props();
+
+	$effect(() => {
+		console.log(data);
+	});
 </script>
 
 <main class="relative overflow-hidden">
