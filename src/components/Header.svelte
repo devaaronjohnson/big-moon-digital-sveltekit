@@ -26,14 +26,14 @@
 			</div>
 			<div class="flex flex-1 justify-end">
 				<div class="hidden flex-row items-center justify-end lg:flex">
-					<ul class="flex flex-row items-center gap-10">
-						<li class="font-karla font-light text-white">
+					<ul class="flex flex-row items-center gap-16">
+						<li class="font-karla text-lg font-light text-white">
 							<a href="/about">About</a>
 						</li>
 						<li
 							use:clickOutside
 							onclick_outside={() => (showServices = false)}
-							class="relative font-karla font-light text-white"
+							class="relative font-karla text-lg font-light text-white"
 						>
 							<a
 								onclick={(e) => {
@@ -51,7 +51,7 @@
 									class="absolute top-7 left-0 w-max rounded bg-white px-4 py-3 shadow-lg"
 								>
 									<ul>
-										<li class="font-karla text-base leading-relaxed font-light text-black">
+										<li class="font-karla text-lg leading-relaxed font-light text-black">
 											<a
 												onclick={() => {
 													showServices = false;
@@ -62,7 +62,7 @@
 												Web Design
 											</a>
 										</li>
-										<li class="font-karla text-base leading-relaxed font-light text-black">
+										<li class="font-karla text-lg leading-relaxed font-light text-black">
 											<a
 												onclick={() => {
 													showServices = false;
@@ -73,7 +73,7 @@
 												Wordpress Development
 											</a>
 										</li>
-										<li class="font-karla text-base leading-relaxed font-light text-black">
+										<li class="font-karla text-lg leading-relaxed font-light text-black">
 											<a
 												onclick={() => {
 													showServices = false;
@@ -84,7 +84,7 @@
 												Headless Wordpress
 											</a>
 										</li>
-										<li class="font-karla text-base leading-relaxed font-light text-black">
+										<li class="font-karla text-lg leading-relaxed font-light text-black">
 											<a
 												onclick={() => {
 													showServices = false;
@@ -101,7 +101,18 @@
 						</li>
 						<!-- <li class="font-karla font-light text-white">Portfolio</li> -->
 						<!-- <li class="font-karla font-light text-white">Blog</li> -->
-						<li class="font-karla font-light text-white">
+						<li class="font-karla text-lg font-light text-white">
+							<a
+								onclick={() => {
+									showServices = false;
+								}}
+								href="/blog"
+								class="relative"
+							>
+								Blog
+							</a>
+						</li>
+						<li class="font-karla text-lg font-light text-white">
 							<a
 								onclick={() => {
 									showServices = false;
@@ -117,7 +128,7 @@
 						href="https://calendly.com/aaronjohnsondev/30min"
 						target="_blank"
 						aria-label="Opens in a new tab"
-						class="ml-10 hidden rounded-full border border-darkestBlue bg-darkestBlue px-7 py-3 font-karla text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue lg:block"
+						class="ml-16 hidden rounded-full border border-darkestBlue bg-darkestBlue px-7 py-3 font-karla text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue lg:block"
 					>
 						Schedule a Call
 					</a>
