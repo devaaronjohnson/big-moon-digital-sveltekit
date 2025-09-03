@@ -14,5 +14,5 @@ export async function load() {
     //     return { posts };
     // }
 
-    throw error(404, 'Not found');
+    // throw error(404, 'Not found');
 }
