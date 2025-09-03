@@ -4,7 +4,7 @@
 
 <main class="relative overflow-x-hidden">
 	<header class="relative bg-darkBackground pt-32 pb-10 lg:pt-44 lg:pb-20">
-		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-[0.03]" />
+		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-[0.05]" />
 		<div class="container_lg relative px-5 2xl:px-0">
 			<h1
 				class="mb-6 text-center font-rubik text-4xl leading-[1.1] font-bold text-pretty text-white lg:text-6xl"
@@ -63,7 +63,7 @@
 			</h2>
 			<div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
-					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">Web Design</h3>
+					<h3 class="mb-5 font-rubik text-3xl font-normal text-darkestBlue">Web Design</h3>
 					<p class="mb-5 font-karla text-xl font-light">
 						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
 						design with outcomes
@@ -75,7 +75,9 @@
 					</ul>
 				</div>
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
-					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">Wordpress Development</h3>
+					<h3 class="mb-5 font-rubik text-3xl font-normal text-darkestBlue">
+						Wordpress Development
+					</h3>
 					<p class="mb-5 font-karla text-xl font-light">
 						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
 						design with outcomes
@@ -87,7 +89,7 @@
 					</ul>
 				</div>
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
-					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">Headless Wordpress</h3>
+					<h3 class="mb-5 font-rubik text-3xl font-normal text-darkestBlue">Headless Wordpress</h3>
 					<p class="mb-5 font-karla text-xl font-light">
 						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
 						design with outcomes
@@ -99,7 +101,7 @@
 					</ul>
 				</div>
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
-					<h3 class="mb-5 font-rubik text-3xl font-normal text-lightBlue">
+					<h3 class="mb-5 font-rubik text-3xl font-normal text-darkestBlue">
 						Javascript Development
 					</h3>
 					<p class="mb-5 font-karla text-xl font-light">
@@ -195,12 +197,12 @@
 		</div>
 	</section>
 	<section class="relative pt-10 pb-10 lg:pt-20 lg:pb-20">
-		<div class="container_xl px-5 2xl:px-10">
+		<div class="container_xl relative px-5 2xl:px-10">
 			<h2 class="mb-10 text-center font-rubik text-4xl font-normal text-black lg:mb-20 lg:text-5xl">
 				What Clients Say About Us
 			</h2>
-			<div class="grid grid-cols-1 gap-10 lg:grid-cols-3">
-				<div class="overflow-hidden rounded-3xl border-2 border-[#f3f3f3]">
+			<div class="relative grid grid-cols-1 gap-10 lg:grid-cols-3">
+				<div class="overflow-hidden rounded-3xl border-2 border-[#f3f3f3] shadow-lg">
 					<div class="px-10 pt-12 pb-12">
 						<p class="font-karla text-lg font-light">
 							“We struggled with user drop-offs for months. Web Rocket redesigned our dashboard with
@@ -213,7 +215,7 @@
 						<p class="font-karla text-lg font-light text-black">CEO of SaaSFlow</p>
 					</div>
 				</div>
-				<div class="overflow-hidden rounded-3xl border-2 border-[#f3f3f3]">
+				<div class="overflow-hidden rounded-3xl border-2 border-[#f3f3f3] shadow-lg">
 					<div class="px-10 pt-12 pb-12">
 						<p class="font-karla text-lg font-light">
 							“We struggled with user drop-offs for months. Web Rocket redesigned our dashboard with
@@ -226,7 +228,7 @@
 						<p class="font-karla text-lg font-light text-black">CEO of SaaSFlow</p>
 					</div>
 				</div>
-				<div class="overflow-hidden rounded-3xl border-2 border-[#f3f3f3]">
+				<div class="overflow-hidden rounded-3xl border-2 border-[#f3f3f3] shadow-lg">
 					<div class="px-10 pt-12 pb-12">
 						<p class="font-karla text-lg font-light">
 							“We struggled with user drop-offs for months. Web Rocket redesigned our dashboard with
@@ -242,7 +244,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="relative bg-darkBackground pt-10 pb-10 lg:pt-20 lg:pb-20">
+	<section class="relative overflow-hidden bg-darkBackground pt-10 pb-10 lg:pt-20 lg:pb-20">
 		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-0 w-[90%] opacity-[0.03]" />
 		<div class="container_lg relative px-5 2xl:px-0">
 			<h2 class="mb-7 text-center font-rubik text-4xl font-normal text-white lg:text-5xl">

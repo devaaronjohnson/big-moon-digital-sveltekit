@@ -10,9 +10,10 @@
 						WordPress Development
 					</h1>
 					<p class="mb-7 font-karla text-xl font-light text-white">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam animi eveniet temporibus
-						repellat tenetur quia corrupti eum nisi fuga ad similique nemo, neque quos pariatur est
-						eius alias aliquam dolores.
+						WordPress is a popular open-source content management system (CMS) that makes it easy to
+						build and manage websites without needing advanced coding skills. It's highly flexible,
+						offering thousands of themes, plugins, and customization options for everything from
+						blogs to full business websites and e-commerce stores.
 					</p>
 					<div class="flex items-center justify-start">
 						<a
@@ -26,7 +27,7 @@
 					<img
 						src="/wordpress_hero.jpg"
 						alt=""
-						class="w-full rounded-4xl border-12 border-white/20"
+						class="w-full rounded-4xl border-12 border-white/10"
 					/>
 				</div>
 			</div>
@@ -53,15 +54,15 @@
 					class="mt-10 flex flex-col items-start justify-center gap-5 lg:mt-16 lg:flex-row lg:items-center lg:gap-10"
 				>
 					<p class="flex items-center gap-2 font-karla text-xl font-light text-white">
-						<img src="/blue_check.svg" alt="" class="h-7 w-7" />
+						<img src="/circle_check.svg" alt="" class="h-7 w-7" />
 						Proven CMS
 					</p>
 					<p class="flex items-center gap-2 font-karla text-xl font-light text-white">
-						<img src="/blue_check.svg" alt="" class="h-7 w-7" />
+						<img src="/circle_check.svg" alt="" class="h-7 w-7" />
 						Easy to Manage Content
 					</p>
 					<p class="flex items-center gap-2 font-karla text-xl font-light text-white">
-						<img src="/blue_check.svg" alt="" class="h-7 w-7" />
+						<img src="/circle_check.svg" alt="" class="h-7 w-7" />
 						Rapid Development
 					</p>
 				</div>

@@ -3,7 +3,7 @@
 
 <main class="relative overflow-hidden">
 	<header class="relative bg-darkBackground pt-32 pb-10 lg:pt-44 lg:pb-20">
-		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-[0.03]" />
+		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-[0.05]" />
 		<div class="container_xl relative px-5 2xl:px-0">
 			<h1
 				class="mb-6 w-3/4 font-rubik text-4xl leading-[1.1] font-bold text-pretty text-white lg:text-6xl"

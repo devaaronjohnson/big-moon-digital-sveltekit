@@ -1,8 +1,9 @@
 <script>
-	let name = $state('');
-	let email = $state('');
-	let phone = $state('');
-	let message = $state('');
+	import { ContactForm } from '$components';
+	// let name = $state('');
+	// let email = $state('');
+	// let phone = $state('');
+	// let message = $state('');
 
 	// function submitForm() {
 	// 	console.log('Submit form');
@@ -32,58 +33,7 @@
 				</p> -->
 			</div>
 			<div class="relative w-full lg:flex-1">
-				<form>
-					<div class="mb-5">
-						<label for="name" class="mb-1 block w-full font-rubik text-lg font-normal text-white"
-							>Your Name *</label
-						>
-						<input
-							id="name"
-							type="text"
-							bind:value={name}
-							class="w-full rounded-lg border border-white/50 bg-white/2 p-4 font-karla text-xl font-light text-white transition-all duration-200 hover:border-lightBlue focus:border-lightBlue focus:outline-none"
-						/>
-					</div>
-					<div class="mb-5">
-						<label for="email" class="mb-1 block w-full font-rubik text-lg font-normal text-white"
-							>Your Email *</label
-						>
-						<input
-							id="email"
-							type="text"
-							bind:value={email}
-							class="w-full rounded-lg border border-white/50 bg-white/2 p-4 font-karla text-xl font-light text-white transition-all duration-200 hover:border-lightBlue focus:border-lightBlue focus:outline-none"
-						/>
-					</div>
-					<div class="mb-5">
-						<label for="phone" class="mb-1 block w-full font-rubik text-lg font-normal text-white"
-							>Phone Number</label
-						>
-						<input
-							id="phone"
-							type="text"
-							bind:value={phone}
-							class="w-full rounded-lg border border-white/50 bg-white/2 p-4 font-karla text-xl font-light text-white transition-all duration-200 hover:border-lightBlue focus:border-lightBlue focus:outline-none"
-						/>
-					</div>
-					<div class="mb-5">
-						<label for="message" class="mb-1 block w-full font-rubik text-lg font-normal text-white"
-							>Message</label
-						>
-						<textarea
-							rows="5"
-							id="message"
-							type="text"
-							bind:value={message}
-							class="focus:lightBlue w-full rounded-lg border border-white/50 bg-white/2 p-4 font-karla text-xl font-light text-white transition-all duration-200 hover:border-lightBlue focus:border-lightBlue focus:outline-none"
-						></textarea>
-					</div>
-					<button
-						type="submit"
-						class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue focus:outline-none"
-						>Submit Form</button
-					>
-				</form>
+				<ContactForm />
 			</div>
 		</div>
 	</section>
