@@ -234,6 +234,15 @@
 				onclick={() => {
 					showMobileMenu = false;
 				}}
+				href="/blog"
+				class="font-bi text-center text-4xl font-normal">Blog</a
+			>
+		</p>
+		<p class="relative text-white">
+			<a
+				onclick={() => {
+					showMobileMenu = false;
+				}}
 				href="/contact"
 				class="font-bi text-center text-4xl font-normal">Contact</a
 			>

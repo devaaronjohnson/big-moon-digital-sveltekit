@@ -32,11 +32,55 @@ export async function getBlogPosts() {
             content
             slug
             title
+            date
+            categories {
+              nodes {
+                name
+              }
+            }
+            featuredImage {
+              node {
+                mediaItemUrl
+              }
+            }
           }
         }
       }
     }
     `,
     variables: {}
+  });
+}
+
+export async function getPost(slug) {
+  return getData({
+    query: `
+    query getPostBySlug($id: ID!) {
+      post(id: $id, idType: SLUG) {
+        slug
+        title
+        status
+        seo {
+          metaDesc
+          title
+        }
+        featuredImage {
+          node {
+            mediaItemUrl
+          }
+        }
+        content
+        categories {
+          nodes {
+            name
+          }
+        }
+        date
+      }
+    }
+    `,
+    variables: {
+      id: slug
+    }
   });
 }
