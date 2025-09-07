@@ -108,6 +108,43 @@
 	@apply mx-auto w-full max-w-screen-md;
 }
 
+.blog_content p {
+	@apply mb-5 font-karla text-xl font-light;
+}
+
+.blog_content li {
+	@apply font-karla text-xl font-light;
+}
+
+.blog_content ul {
+	@apply list-disc pl-5 mb-5;
+}
+
+.blog_content ol {
+	@apply list-decimal pl-5 mb-5;
+}
+
+.blog_content img {
+	@apply w-full mb-5;
+}
+
+.blog_content h2 {
+	@apply font-rubik text-4xl font-bold mb-2;
+}
+
+.blog_content h3 {
+	@apply font-rubik text-3xl font-bold mb-2;
+}
+
+.blog_content h4 {
+	@apply font-rubik text-2xl font-bold mb-2;
+}
+
+.blog_content pre {
+	@apply bg-gray-100 p-5 w-full mb-5;
+}
+
+
 /* html {
 	@apply bg-darkBackground;
 } */
