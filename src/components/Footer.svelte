@@ -18,6 +18,9 @@
 						<a href="/about">About</a>
 					</li>
 					<li class="font-karla text-lg leading-loose font-light">
+						<a href="/blog">Blog</a>
+					</li>
+					<li class="font-karla text-lg leading-loose font-light">
 						<a href="/contact">Contact</a>
 					</li>
 				</ul>

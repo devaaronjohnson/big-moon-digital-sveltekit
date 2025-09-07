@@ -10,7 +10,7 @@
 	});
 </script>
 
-<main>
+<main class="relative">
 	<header class="relative bg-darkBackground pt-32 pb-10 lg:pt-44 lg:pb-20">
 		<div class="container_md px-5 2xl:px-0">
 			<h1 class="mb-2 font-rubik text-4xl font-bold text-white lg:text-6xl">{post.title}</h1>
@@ -21,7 +21,7 @@
 	</header>
 	<section class="pt-10 pb-10 lg:pt-20 lg:pb-20">
 		<div class="container_md px-5 2xl:px-0">
-			<img src={post.featuredImage.node.mediaItemUrl} alt={post.title} class="w-full" />
+			<img src={post.featuredImage.node.mediaItemUrl} alt={post.title} class="w-full rounded" />
 			<div class="blog_content mt-5 lg:mt-10">
 				{@html post.content}
 			</div>
