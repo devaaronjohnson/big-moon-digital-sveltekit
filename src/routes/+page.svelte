@@ -1,5 +1,28 @@
 <script>
 	import { ProjectPill } from '$components';
+
+	import { onMount } from 'svelte';
+	import Splide from '@splidejs/splide';
+	import '@splidejs/splide/dist/css/splide.min.css';
+
+	let splideRoot;
+	let slides = $state(['First', 'Second', 'Third']); // runes reactivity
+
+	const { data } = $props();
+
+	$effect(() => {
+		console.log(data);
+	});
+
+	onMount(() => {
+		const splide = new Splide(splideRoot, { perPage: 1 });
+		splide.mount();
+
+		return () => splide.destroy();
+	});
+
+	// import { Splide, SplideSlide } from '@splidejs/svelte-splide';
+	// import '@splidejs/splide/css';
 </script>
 
 <main class="relative overflow-x-hidden">
@@ -17,7 +40,9 @@
 			</p>
 			<div class="flex items-center justify-center">
 				<a
-					href="/"
+					href="https://calendly.com/aaron-bigmoondigital/30min"
+					target="_blank"
+					aria-label="Opens in a new tab"
 					class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
 					>Book a Meeting</a
 				>
@@ -201,8 +226,50 @@
 			<h2 class="mb-10 text-center font-rubik text-4xl font-normal text-black lg:mb-20 lg:text-5xl">
 				What Clients Say About Us
 			</h2>
-			<div class="relative grid grid-cols-1 gap-10 lg:grid-cols-3">
-				<div class="overflow-hidden rounded-3xl border-2 border-[#f3f3f3] shadow-lg">
+
+			<div class="relative grid grid-cols-1 gap-10 lg:grid-cols-1">
+				<!-- <Splide aria-label="My Favorite Images">
+					<SplideSlide>
+						<div class="overflow-hidden">
+							<div class="px-10 pt-5 pb-5">
+								<p class="text-center font-karla text-lg font-light text-pretty">
+									“We struggled with user drop-offs for months. Web Rocket redesigned our dashboard
+									with intuitive workflows, and our retention skyrocketed by 40% in 30 days. Their
+									team actually listens to users—no ego, just data-driven design.”
+								</p>
+							</div>
+							<div class="px-10">
+								<p class="text-center font-rubik text-xl font-bold text-black">Sarah K.</p>
+								<p class="text-center font-karla text-lg font-light text-black">CEO of SaaSFlow</p>
+							</div>
+						</div>
+					</SplideSlide>
+				</Splide> -->
+				<div bind:this={splideRoot} class="splide">
+					<div class="splide__track">
+						<ul class="splide__list">
+							{#each slides as slide}
+								<li class="splide__slide">{slide}</li>
+							{/each}
+						</ul>
+					</div>
+				</div>
+				<!--
+				<div class="overflow-hidden">
+					<div class="px-10 pt-5 pb-5">
+						<p class="text-center font-karla text-lg font-light text-pretty">
+							“We struggled with user drop-offs for months. Web Rocket redesigned our dashboard with
+							intuitive workflows, and our retention skyrocketed by 40% in 30 days. Their team
+							actually listens to users—no ego, just data-driven design.”
+						</p>
+					</div>
+					<div class="px-10">
+						<p class="text-center font-rubik text-xl font-bold text-black">Sarah K.</p>
+						<p class="text-center font-karla text-lg font-light text-black">CEO of SaaSFlow</p>
+					</div>
+				</div>
+				-->
+				<!-- <div class="overflow-hidden rounded-3xl border-2 border-[#f3f3f3] shadow-lg">
 					<div class="px-10 pt-12 pb-12">
 						<p class="font-karla text-lg font-light">
 							“We struggled with user drop-offs for months. Web Rocket redesigned our dashboard with
@@ -214,8 +281,8 @@
 						<p class="font-rubik text-xl font-bold text-black">Sarah K.</p>
 						<p class="font-karla text-lg font-light text-black">CEO of SaaSFlow</p>
 					</div>
-				</div>
-				<div class="overflow-hidden rounded-3xl border-2 border-[#f3f3f3] shadow-lg">
+				</div> -->
+				<!-- <div class="overflow-hidden rounded-3xl border-2 border-[#f3f3f3] shadow-lg">
 					<div class="px-10 pt-12 pb-12">
 						<p class="font-karla text-lg font-light">
 							“We struggled with user drop-offs for months. Web Rocket redesigned our dashboard with
@@ -227,20 +294,7 @@
 						<p class="font-rubik text-xl font-bold text-black">Sarah K.</p>
 						<p class="font-karla text-lg font-light text-black">CEO of SaaSFlow</p>
 					</div>
-				</div>
-				<div class="overflow-hidden rounded-3xl border-2 border-[#f3f3f3] shadow-lg">
-					<div class="px-10 pt-12 pb-12">
-						<p class="font-karla text-lg font-light">
-							“We struggled with user drop-offs for months. Web Rocket redesigned our dashboard with
-							intuitive workflows, and our retention skyrocketed by 40% in 30 days. Their team
-							actually listens to users—no ego, just data-driven design.”
-						</p>
-					</div>
-					<div class="bg-[#f3f3f3] px-10 py-5">
-						<p class="font-rubik text-xl font-bold text-black">Sarah K.</p>
-						<p class="font-karla text-lg font-light text-black">CEO of SaaSFlow</p>
-					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>

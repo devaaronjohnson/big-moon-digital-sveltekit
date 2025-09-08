@@ -84,3 +84,26 @@ export async function getPost(slug) {
     }
   });
 }
+
+export async function getHome() {
+  return getData({
+    query: `
+    query getHome {
+      testimonials {
+        edges {
+          node {
+            content
+            title
+            slug
+            testimonialContent {
+              company
+              title
+            }
+          }
+        }
+      }
+    }
+    `,
+    variables: {}
+  });
+}
