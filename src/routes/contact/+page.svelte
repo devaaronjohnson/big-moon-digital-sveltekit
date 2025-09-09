@@ -48,7 +48,7 @@
 			</p>
 			<div class="flex items-center justify-center">
 				<a
-					href="https://calendly.com/aaronjohnsondev/30min"
+					href="https://calendly.com/aaron-bigmoondigital/30min"
 					target="_blank"
 					aria-label="Opens in a new tab"
 					class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
@@ -58,9 +58,9 @@
 			<p class="mt-10 text-center font-karla text-xl font-light">Prefer email?</p>
 			<div class="flex items-center justify-center">
 				<a
-					href="mailto:hello@bigmoondigital.io"
+					href="mailto:aaron@bigmoondigital.io"
 					class="text-center font-karla text-xl font-light text-lightBlue underline"
-					>hello@bigmoondigital.io</a
+					>aaron@bigmoondigital.io</a
 				>
 			</div>
 		</div>

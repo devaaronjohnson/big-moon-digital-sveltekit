@@ -29,7 +29,7 @@
 			return;
 		}
 
-		const url = '';
+		const url = 'https://ajdev.flywheelsites.com/';
 
 		const formData = {
 			input_1: name,

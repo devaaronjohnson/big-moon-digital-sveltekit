@@ -327,52 +327,11 @@
 						</div>
 					</div>
 				</div>
-				<!--
-				<div class="overflow-hidden">
-					<div class="px-10 pt-5 pb-5">
-						<p class="text-center font-karla text-lg font-light text-pretty">
-							“We struggled with user drop-offs for months. Web Rocket redesigned our dashboard with
-							intuitive workflows, and our retention skyrocketed by 40% in 30 days. Their team
-							actually listens to users—no ego, just data-driven design.”
-						</p>
-					</div>
-					<div class="px-10">
-						<p class="text-center font-rubik text-xl font-bold text-black">Sarah K.</p>
-						<p class="text-center font-karla text-lg font-light text-black">CEO of SaaSFlow</p>
-					</div>
-				</div>
-				-->
-				<!-- <div class="overflow-hidden rounded-3xl border-2 border-[#f3f3f3] shadow-lg">
-					<div class="px-10 pt-12 pb-12">
-						<p class="font-karla text-lg font-light">
-							“We struggled with user drop-offs for months. Web Rocket redesigned our dashboard with
-							intuitive workflows, and our retention skyrocketed by 40% in 30 days. Their team
-							actually listens to users—no ego, just data-driven design.”
-						</p>
-					</div>
-					<div class="bg-[#f3f3f3] px-10 py-5">
-						<p class="font-rubik text-xl font-bold text-black">Sarah K.</p>
-						<p class="font-karla text-lg font-light text-black">CEO of SaaSFlow</p>
-					</div>
-				</div> -->
-				<!-- <div class="overflow-hidden rounded-3xl border-2 border-[#f3f3f3] shadow-lg">
-					<div class="px-10 pt-12 pb-12">
-						<p class="font-karla text-lg font-light">
-							“We struggled with user drop-offs for months. Web Rocket redesigned our dashboard with
-							intuitive workflows, and our retention skyrocketed by 40% in 30 days. Their team
-							actually listens to users—no ego, just data-driven design.”
-						</p>
-					</div>
-					<div class="bg-[#f3f3f3] px-10 py-5">
-						<p class="font-rubik text-xl font-bold text-black">Sarah K.</p>
-						<p class="font-karla text-lg font-light text-black">CEO of SaaSFlow</p>
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</section>
 	<section class="relative overflow-hidden bg-darkBackground pt-10 pb-10 lg:pt-20 lg:pb-20">
-		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-0 w-[90%] opacity-[0.03]" />
+		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-0 w-[90%] opacity-[0.05]" />
 		<div class="container_lg relative px-5 2xl:px-0">
 			<h2 class="mb-7 text-center font-rubik text-4xl font-normal text-white lg:text-5xl">
 				Let's talk about your next project.
@@ -385,8 +344,7 @@
 			</p>
 			<div class="flex items-center justify-center">
 				<a
-					href="https://calendly.com/aaronjohnsondev/30min"
-					target="_blank"
+					href="https://calendly.com/aaron-bigmoondigital/30min"
 					aria-label="Opens in a new tab"
 					class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
 					>Book a Free Call</a
@@ -395,9 +353,9 @@
 			<p class="mt-10 text-center font-karla text-xl font-light text-white">Prefer email?</p>
 			<div class="flex items-center justify-center">
 				<a
-					href="mailto:hello@bigmoondigital.io"
+					href="mailto:aaron@bigmoondigital.io"
 					class="text-center font-karla text-xl font-light text-white underline"
-					>hello@bigmoondigital.io</a
+					>aaron@bigmoondigital.io</a
 				>
 			</div>
 		</div>

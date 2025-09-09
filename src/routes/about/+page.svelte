@@ -3,13 +3,21 @@
 
 <main class="relative overflow-hidden">
 	<header class="relative bg-darkBackground pt-32 pb-10 lg:pt-44 lg:pb-20">
-		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-[0.05]" />
-		<div class="container_xl relative px-5 2xl:px-0">
+		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[40%] w-full opacity-[0.05]" />
+		<div class="container_lg relative px-5 2xl:px-0">
 			<h1
-				class="mb-6 w-3/4 font-rubik text-4xl leading-[1.1] font-bold text-pretty text-white lg:text-6xl"
+				class="mb-6 text-center font-rubik text-4xl leading-[1.1] font-bold text-pretty text-white lg:text-6xl"
 			>
 				We Design & Build Digital Experiences That Are Amazing to Look At and Easy to Use
 			</h1>
+
+			<div class="mt-8 flex flex-row items-center justify-center lg:mt-16">
+				<div
+					class="h-[250px] w-full overflow-hidden rounded-4xl border-12 border-white/20 lg:h-[600px]"
+				>
+					<img src="/web_design_about.webp" alt="" class="h-full w-full object-cover" />
+				</div>
+			</div>
 
 			<!-- <p class="font-karlafont-light mb-7 px-0 text-center text-xl text-white lg:px-32">
 				We craft high-converting websites, apps, and brands for startups, agencies, and businesses
@@ -91,7 +99,7 @@
 		</div>
 	</section>
 	<section class="relative bg-darkBackground pt-10 pb-10 lg:pt-20 lg:pb-20">
-		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-0 w-[90%] opacity-[0.03]" />
+		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-0 w-[70%] opacity-[0.05]" />
 		<div class="container_lg relative px-5 2xl:px-0">
 			<h2 class="mb-7 text-center font-rubik text-4xl font-normal text-white lg:text-5xl">
 				Let's talk about your next project.
@@ -104,7 +112,7 @@
 			</p>
 			<div class="flex items-center justify-center">
 				<a
-					href="https://calendly.com/aaronjohnsondev/30min"
+					href="https://calendly.com/aaron-bigmoondigital/30min"
 					target="_blank"
 					aria-label="Opens in a new tab"
 					class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
@@ -114,9 +122,9 @@
 			<p class="mt-10 text-center font-karla text-xl font-light text-white">Prefer email?</p>
 			<div class="flex items-center justify-center">
 				<a
-					href="mailto:hello@bigmoondigital.io"
+					href="mailto:aaron@bigmoondigital.io"
 					class="text-center font-karla text-xl font-light text-white underline"
-					>hello@bigmoondigital.io</a
+					>aaron@bigmoondigital.io</a
 				>
 			</div>
 		</div>
