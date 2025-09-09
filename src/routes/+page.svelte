@@ -43,11 +43,11 @@
 			<h1
 				class="mb-6 text-center font-rubik text-4xl leading-[1.1] font-bold text-pretty text-white lg:text-6xl"
 			>
-				Where Stunning Design Meets Flawless Functionality
+				Where Creativity and Functionality Work in Harmony
 			</h1>
 			<p class="mb-7 px-0 text-center font-karla text-2xl font-light text-white lg:px-32">
-				We craft high-converting websites, apps, and brands for startups, agencies, and businesses
-				that refuse to settle for good enough.
+				We believe design should do more than just look good—it should work effortlessly. That's why
+				we combine creativity with functionality to create websites that truly deliver.
 			</p>
 			<div class="flex items-center justify-center">
 				<a
@@ -73,13 +73,12 @@
 			<div class="flex flex-col items-center gap-10 lg:flex-row lg:gap-32">
 				<div class="w-full lg:w-1/2">
 					<h2 class="mb-5 font-rubik text-4xl leading-[1.1] font-normal text-balance lg:text-5xl">
-						Unforgettable, Websites, Brands
+						All Digital Phases Coming Together to Meet Your Needs
 					</h2>
-					<p class="mb-5 font-karla text-xl font-light">
-						We're not your typical design agency. Founded in 2014, we're a collective of designers,
-						developers, and strategists who believe great digital experiences should be beautiful,
-						functional, and human-centered. From startups to global brands, we help ambitious
-						businesses stand out.
+					<p class="mb-6 font-karla text-xl font-light">
+						We believe that designers, developers, and digital marketers should work seamlessly,
+						collaborating to bring the best of all parts to the completed product. Good digital
+						products should be beautiful, user-friendly, and capable of bringing results.
 					</p>
 					<div class="flex items-center justify-start">
 						<a
@@ -110,14 +109,17 @@
 					</div>
 					<h3 class="mb-5 font-rubik text-3xl font-normal text-darkestBlue">Web Design</h3>
 					<p class="mb-5 font-karla text-xl font-light">
-						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
-						design with outcomes
+						We design websites with mobile in mind. In most cases, a user will most likely visit
+						your website on their phone, so making sure your website is mobile optimized is of high
+						priority.
 					</p>
-					<ul class="list-disc pl-5">
-						<li class="font-karla text-xl font-light">User flows that boost engagement</li>
-						<li class="font-karla text-xl font-light">Mobile-first, award worthy interfaces</li>
-						<li class="font-karla text-xl font-light">Prototypes in 72 hours or less</li>
-					</ul>
+					<div class="flex items-center justify-start">
+						<a
+							href="/"
+							class="font-karla text-lg font-normal text-darkestBlue uppercase underline transition-all duration-200"
+							>Learn More</a
+						>
+					</div>
 				</div>
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
 					<div class="mb-3">
@@ -127,14 +129,22 @@
 						Wordpress Development
 					</h3>
 					<p class="mb-5 font-karla text-xl font-light">
-						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
-						design with outcomes
+						We believe Wordpress is the most easy to use CMS for users that need to focus on their
+						business and not their website, and the numbers support this since 44% of all websites
+						are built with Wordpress.
 					</p>
-					<ul class="list-disc pl-5">
+					<div class="flex items-center justify-start">
+						<a
+							href="/"
+							class="font-karla text-lg font-normal text-darkestBlue uppercase underline transition-all duration-200"
+							>Learn More</a
+						>
+					</div>
+					<!-- <ul class="list-disc pl-5">
 						<li class="font-karla text-xl font-light">User flows that boost engagement</li>
 						<li class="font-karla text-xl font-light">Mobile-first, award worthy interfaces</li>
 						<li class="font-karla text-xl font-light">Prototypes in 72 hours or less</li>
-					</ul>
+					</ul> -->
 				</div>
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
 					<div class="gap-3=5 mb-3 flex flex-row items-center">
@@ -145,14 +155,17 @@
 					</div>
 					<h3 class="mb-5 font-rubik text-3xl font-normal text-darkestBlue">Headless Wordpress</h3>
 					<p class="mb-5 font-karla text-xl font-light">
-						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
-						design with outcomes
+						Not only is Wordpress a great CMS, but it is easy to connect with a separate javascript
+						front-end when situation calls for a more performant and customizable website. Users can
+						still update their site as usual, but without the worry of breaking the site.
 					</p>
-					<ul class="list-disc pl-5">
-						<li class="font-karla text-xl font-light">User flows that boost engagement</li>
-						<li class="font-karla text-xl font-light">Mobile-first, award worthy interfaces</li>
-						<li class="font-karla text-xl font-light">Prototypes in 72 hours or less</li>
-					</ul>
+					<div class="flex items-center justify-start">
+						<a
+							href="/"
+							class="font-karla text-lg font-normal text-darkestBlue uppercase underline transition-all duration-200"
+							>Learn More</a
+						>
+					</div>
 				</div>
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
 					<div class="gap-3=5 mb-3 flex flex-row items-center">
@@ -163,14 +176,17 @@
 						Javascript Development
 					</h3>
 					<p class="mb-5 font-karla text-xl font-light">
-						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
-						design with outcomes
+						In some cases there is a need for a completely customized solution. Svelte and React
+						both have great application frameworks and can be connected to a myriad of backend
+						solutions. Schedule a call and we can talk through any need you have.
 					</p>
-					<ul class="list-disc pl-5">
-						<li class="font-karla text-xl font-light">User flows that boost engagement</li>
-						<li class="font-karla text-xl font-light">Mobile-first, award worthy interfaces</li>
-						<li class="font-karla text-xl font-light">Prototypes in 72 hours or less</li>
-					</ul>
+					<div class="flex items-center justify-start">
+						<a
+							href="/"
+							class="font-karla text-lg font-normal text-darkestBlue uppercase underline transition-all duration-200"
+							>Learn More</a
+						>
+					</div>
 				</div>
 			</div>
 		</div>
