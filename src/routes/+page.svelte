@@ -84,7 +84,9 @@
 					</div>
 				</div>
 				<div class="w-full lg:flex-1">
-					<img src="/sample_preview.jpeg" alt="" class="w-full rounded-2xl" />
+					<div class="h-[350px] overflow-hidden rounded-2xl">
+						<img src="/sample_preview.jpeg" alt="" class="h-full w-full object-cover" />
+					</div>
 				</div>
 			</div>
 		</div>
