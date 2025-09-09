@@ -90,7 +90,7 @@
 					</div>
 				</div>
 				<div class="w-full lg:flex-1">
-					<div class="h-[350px] overflow-hidden rounded-2xl">
+					<div class="h-[250px] overflow-hidden rounded-2xl lg:h-[350px]">
 						<img src="/sample_preview.jpeg" alt="" class="h-full w-full object-cover" />
 					</div>
 				</div>
@@ -184,6 +184,29 @@
 				<div class="relative">
 					<div class="relative mb-5 h-[300px] lg:h-[550px]">
 						<img
+							src="/carma.jpg"
+							alt="Carma"
+							class="h-full w-full rounded-2xl object-cover object-top"
+						/>
+						<a
+							href="."
+							class="absolute right-5 bottom-5 rounded-full border border-black bg-black px-5 py-2 font-karla text-base font-light text-white"
+						>
+							View Website
+						</a>
+					</div>
+
+					<h3 class="relative mb-5 font-rubik text-3xl font-normal text-white lg:text-4xl">
+						Carma
+					</h3>
+					<div class="relative flex flex-row flex-wrap items-center gap-3">
+						<ProjectPill text="Wordpress Development" />
+						<ProjectPill text="Web Design" />
+					</div>
+				</div>
+				<div class="relative">
+					<div class="relative mb-5 h-[300px] lg:h-[550px]">
+						<img
 							src="/smiley.jpg"
 							alt="Smiley Aesthetics"
 							class="h-full w-full rounded-2xl object-cover object-top"
@@ -226,29 +249,6 @@
 						<ProjectPill text="Web Design" />
 						<ProjectPill text="Headless Wordpress" />
 						<ProjectPill text="Javascript Development" />
-					</div>
-				</div>
-				<div class="relative">
-					<div class="relative mb-5 h-[300px] lg:h-[550px]">
-						<img
-							src="/carma.jpg"
-							alt="Carma"
-							class="h-full w-full rounded-2xl object-cover object-top"
-						/>
-						<a
-							href="."
-							class="absolute right-5 bottom-5 rounded-full border border-black bg-black px-5 py-2 font-karla text-base font-light text-white"
-						>
-							View Website
-						</a>
-					</div>
-
-					<h3 class="relative mb-5 font-rubik text-3xl font-normal text-white lg:text-4xl">
-						Carma
-					</h3>
-					<div class="relative flex flex-row flex-wrap items-center gap-3">
-						<ProjectPill text="Wordpress Development" />
-						<ProjectPill text="Web Design" />
 					</div>
 				</div>
 			</div>

@@ -8,7 +8,7 @@
 			<h1
 				class="mb-6 w-3/4 font-rubik text-4xl leading-[1.1] font-bold text-pretty text-white lg:text-6xl"
 			>
-				We Design & Build Digital Experiences That Move the Needle
+				We Design & Build Digital Experiences That Are Amazing to Look At and Easy to Use
 			</h1>
 
 			<!-- <p class="font-karlafont-light mb-7 px-0 text-center text-xl text-white lg:px-32">
@@ -33,7 +33,7 @@
 			<h2
 				class="mb-5 text-center font-rubik text-4xl leading-[1.1] font-normal text-balance lg:text-5xl"
 			>
-				How We Work: Painless, Proven, Pixel-Perfect
+				A Simple Process that Works
 			</h2>
 			<div class="mt-10 grid grid-cols-1 gap-10 lg:mt-20 lg:grid-cols-3">
 				<div class="rounded-4xl border border-[#ddd] p-12 shadow-lg">
@@ -42,7 +42,8 @@
 					</div>
 					<p class="mb-5 text-center font-rubik text-3xl font-normal">Discover</p>
 					<p class="mb-5 text-center font-karla text-lg font-light">
-						We dive deep into your goals and must-haves to craft a battle plan.
+						We dive deep into understanding your business, goals, and audience to create a clear
+						roadmap for success.
 					</p>
 					<div class="flex items-center justify-center">
 						<p
@@ -58,7 +59,8 @@
 					</div>
 					<p class="mb-5 text-center font-rubik text-3xl font-normal">Design & Build</p>
 					<p class="mb-5 text-center font-karla text-lg font-light">
-						We dive deep into your goals and must-haves to craft a battle plan.
+						We craft a visually stunning, user-friendly website tailored to your brand and built for
+						performance.
 					</p>
 					<div class="flex items-center justify-center">
 						<p
@@ -74,7 +76,8 @@
 					</div>
 					<p class="mb-5 text-center font-rubik text-3xl font-normal">Launch & Grow</p>
 					<p class="mb-5 text-center font-karla text-lg font-light">
-						We dive deep into your goals and must-haves to craft a battle plan.
+						We launch your site with confidence and provide ongoing support to help your business
+						evolve and thrive.
 					</p>
 					<div class="flex items-center justify-center">
 						<p
