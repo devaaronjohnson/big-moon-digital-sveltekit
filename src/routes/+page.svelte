@@ -21,7 +21,12 @@
 			padding: '2rem',
 			type: 'loop',
 			perPage: 1,
-			perMove: 1
+			perMove: 1,
+			breakpoints: {
+				640: {
+					padding: '1rem'
+				}
+			}
 		});
 		splide.mount();
 
@@ -301,15 +306,17 @@
 								<div class="splide__slide">
 									<div class="overflow-hidden">
 										<div class="px-10 pt-5 pb-5">
-											<p class="text-center font-karla text-xl font-light text-pretty">
+											<p class="text-center font-karla text-base font-light text-pretty lg:text-xl">
 												{@html testimonial.node.content}
 											</p>
 										</div>
 										<div class="px-10">
-											<p class="text-center font-rubik text-xl font-bold text-black">
+											<p class="text-center font-rubik text-base font-bold text-black lg:text-xl">
 												{testimonial.node.title}
 											</p>
-											<p class="font-regular text-center font-karla text-lg text-black">
+											<p
+												class="font-regular text-center font-karla text-base text-black lg:text-lg"
+											>
 												{testimonial.node.testimonialsContent.title} | {testimonial.node
 													.testimonialsContent.company}
 											</p>
