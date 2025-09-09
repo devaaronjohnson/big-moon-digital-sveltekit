@@ -8,14 +8,13 @@ export async function load() {
 
     // const pageData = res.body.data.page;
 
+    console.log(res.body.data.testimonials.edges);
 
+    const testimonials = res.body.data.testimonials.edges;
 
-    // const testimonials = res.body.data.testimonials.edges;
+    if (testimonials) {
+        return { testimonials };
+    }
 
-    console.log(res);
-    // if (testimonials) {
-    //     return { testimonials };
-    // }
-
-    // throw error(404, 'Not Found');
+    throw error(404, 'Not Found');
 }

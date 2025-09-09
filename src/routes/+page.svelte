@@ -10,12 +10,19 @@
 
 	const { data } = $props();
 
+	let testimonials = data.testimonials;
+
 	$effect(() => {
 		console.log(data);
 	});
 
 	onMount(() => {
-		const splide = new Splide(splideRoot, { perPage: 1 });
+		const splide = new Splide(splideRoot, {
+			padding: '2rem',
+			type: 'loop',
+			perPage: 1,
+			perMove: 1
+		});
 		splide.mount();
 
 		return () => splide.destroy();
@@ -34,7 +41,7 @@
 			>
 				Where Stunning Design Meets Flawless Functionality
 			</h1>
-			<p class="mb-7 px-0 text-center font-karla text-xl font-light text-white lg:px-32">
+			<p class="mb-7 px-0 text-center font-karla text-2xl font-light text-white lg:px-32">
 				We craft high-converting websites, apps, and brands for startups, agencies, and businesses
 				that refuse to settle for good enough.
 			</p>
@@ -49,7 +56,9 @@
 			</div>
 
 			<div class="mt-8 flex flex-row items-center justify-center lg:mt-16">
-				<img src="/sample.jpg" alt="" class="rounded-4xl border-12 border-white/20" />
+				<div class="h-[500px] w-full overflow-hidden rounded-4xl border-12 border-white/20">
+					<img src="/woman_design.webp" alt="" class="h-full w-full object-cover" />
+				</div>
 			</div>
 		</div>
 	</header>
@@ -58,7 +67,7 @@
 			<div class="flex flex-col items-center gap-10 lg:flex-row lg:gap-32">
 				<div class="w-full lg:w-1/2">
 					<h2 class="mb-5 font-rubik text-4xl leading-[1.1] font-normal text-balance lg:text-5xl">
-						Unforgettable, Websites, Brands & Visuals for Bold Visionaries.
+						Unforgettable, Websites, Brands
 					</h2>
 					<p class="mb-5 font-karla text-xl font-light">
 						We're not your typical design agency. Founded in 2014, we're a collective of designers,
@@ -75,7 +84,7 @@
 					</div>
 				</div>
 				<div class="w-full lg:flex-1">
-					<img src="/sample_home.jpg" alt="" class="w-full rounded-2xl" />
+					<img src="/sample_preview.jpeg" alt="" class="w-full rounded-2xl" />
 				</div>
 			</div>
 		</div>
@@ -84,10 +93,13 @@
 		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-40" />
 		<div class="container_xl relative px-5 2xl:px-0">
 			<h2 class="mb-10 text-center font-rubik text-4xl font-normal lg:mb-20 lg:text-5xl">
-				Our Services
+				Services Offered
 			</h2>
 			<div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
+					<div class="mb-3">
+						<img src="/figma.webp" alt="" class="h-12" />
+					</div>
 					<h3 class="mb-5 font-rubik text-3xl font-normal text-darkestBlue">Web Design</h3>
 					<p class="mb-5 font-karla text-xl font-light">
 						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
@@ -100,6 +112,9 @@
 					</ul>
 				</div>
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
+					<div class="mb-3">
+						<img src="/wordpress_full.webp" alt="" class="h-12" />
+					</div>
 					<h3 class="mb-5 font-rubik text-3xl font-normal text-darkestBlue">
 						Wordpress Development
 					</h3>
@@ -114,6 +129,12 @@
 					</ul>
 				</div>
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
+					<div class="gap-3=5 mb-3 flex flex-row items-center">
+						<img src="/wordpress_full.webp" alt="" class="h-12" />
+						<span class="px-3 text-3xl">+</span>
+						<img src="/svelte_full.webp" alt="" class="mr-2 h-12" />
+						<img src="/react.webp" alt="" class="h-12" />
+					</div>
 					<h3 class="mb-5 font-rubik text-3xl font-normal text-darkestBlue">Headless Wordpress</h3>
 					<p class="mb-5 font-karla text-xl font-light">
 						Interfaces that delight users & drive conversions. From wireframes to prototypes, we
@@ -126,6 +147,10 @@
 					</ul>
 				</div>
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
+					<div class="gap-3=5 mb-3 flex flex-row items-center">
+						<img src="/svelte_full.webp" alt="" class="mr-2 h-12" />
+						<img src="/react.webp" alt="" class="h-12" />
+					</div>
 					<h3 class="mb-5 font-rubik text-3xl font-normal text-darkestBlue">
 						Javascript Development
 					</h3>
@@ -222,12 +247,12 @@
 		</div>
 	</section>
 	<section class="relative pt-10 pb-10 lg:pt-20 lg:pb-20">
-		<div class="container_xl relative px-5 2xl:px-10">
-			<h2 class="mb-10 text-center font-rubik text-4xl font-normal text-black lg:mb-20 lg:text-5xl">
-				What Clients Say About Us
+		<div class="container_lg relative px-5 2xl:px-10">
+			<h2 class="text-center font-rubik text-4xl font-normal text-black lg:mb-20 lg:text-5xl">
+				What Clients Say
 			</h2>
 
-			<div class="relative grid grid-cols-1 gap-10 lg:grid-cols-1">
+			<div class="relative">
 				<!-- <Splide aria-label="My Favorite Images">
 					<SplideSlide>
 						<div class="overflow-hidden">
@@ -247,11 +272,28 @@
 				</Splide> -->
 				<div bind:this={splideRoot} class="splide">
 					<div class="splide__track">
-						<ul class="splide__list">
-							{#each slides as slide}
-								<li class="splide__slide">{slide}</li>
+						<div class="splide__list">
+							{#each testimonials as testimonial}
+								<div class="splide__slide">
+									<div class="overflow-hidden">
+										<div class="px-10 pt-5 pb-5">
+											<p class="text-center font-karla text-xl font-light text-pretty">
+												{@html testimonial.node.content}
+											</p>
+										</div>
+										<div class="px-10">
+											<p class="text-center font-rubik text-xl font-bold text-black">
+												{testimonial.node.title}
+											</p>
+											<p class="font-regular text-center font-karla text-lg text-black">
+												{testimonial.node.testimonialsContent.title} | {testimonial.node
+													.testimonialsContent.company}
+											</p>
+										</div>
+									</div>
+								</div>
 							{/each}
-						</ul>
+						</div>
 					</div>
 				</div>
 				<!--

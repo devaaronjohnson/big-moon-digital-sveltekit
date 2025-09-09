@@ -95,7 +95,7 @@ export async function getHome() {
             content
             title
             slug
-            testimonialContent {
+            testimonialsContent {
               company
               title
             }
