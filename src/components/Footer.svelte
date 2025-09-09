@@ -18,6 +18,9 @@
 						<a href="/about">About</a>
 					</li>
 					<li class="font-karla text-lg leading-loose font-light">
+						<a href="/blog">Blog</a>
+					</li>
+					<li class="font-karla text-lg leading-loose font-light">
 						<a href="/contact">Contact</a>
 					</li>
 				</ul>
@@ -48,7 +51,7 @@
 					</li>
 					<li class="flex items-center gap-2 font-karla text-lg leading-loose font-light">
 						<img src="/mail_blue.svg" alt="Email" class="w-5" />
-						<a href="/">hello@bigmoondigital.io</a>
+						<a href="mailto:aaron@bigmoondigital.io">aaron@bigmoondigital.io</a>
 					</li>
 				</ul>
 			</div>

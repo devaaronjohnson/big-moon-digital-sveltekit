@@ -125,7 +125,7 @@
 }
 
 .blog_content img {
-	@apply w-full mb-5;
+	@apply w-full mb-5 rounded;
 }
 
 .blog_content h2 {
