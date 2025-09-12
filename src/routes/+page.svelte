@@ -1,6 +1,10 @@
 <script>
 	import { ProjectPill } from '$components';
 
+	let showAll = $state(false);
+
+	let showId = $state(null);
+
 	// import { onMount } from 'svelte';
 	// import Splide from '@splidejs/splide';
 	// import '@splidejs/splide/dist/css/splide.min.css';
@@ -8,13 +12,17 @@
 	// let splideRoot;
 	// let slides = $state(['First', 'Second', 'Third']); // runes reactivity
 
-	// const { data } = $props();
+	const { data } = $props();
 
-	// let testimonials = data.testimonials;
+	let testimonials = data.testimonials;
 
-	// $effect(() => {
-	// 	console.log(data);
-	// });
+	$effect(() => {
+		console.log(data);
+	});
+
+	function toggle(id) {
+		showId = showId === id ? null : id;
+	}
 
 	// onMount(() => {
 	// 	const splide = new Splide(splideRoot, {
@@ -90,13 +98,13 @@
 						<a
 							href="/"
 							class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
-							>Know More About Us</a
+							>Get Started</a
 						>
 					</div>
 				</div>
 				<div class="w-full lg:flex-1">
-					<div class="h-[250px] overflow-hidden rounded-2xl lg:h-[350px]">
-						<img src="/all_phases.webp" alt="" class="h-full w-full object-cover" />
+					<div class="h-[250px] overflow-hidden rounded-2xl lg:h-[375px]">
+						<img src="/all_home.webp" alt="" class="h-full w-full object-cover" />
 					</div>
 				</div>
 			</div>
@@ -121,7 +129,7 @@
 					</p>
 					<div class="flex items-center justify-start">
 						<a
-							href="/"
+							href="/web-design"
 							class="font-karla text-lg font-normal text-darkestBlue uppercase underline transition-all duration-200"
 							>Learn More</a
 						>
@@ -139,7 +147,7 @@
 					</p>
 					<div class="flex items-center justify-start">
 						<a
-							href="/"
+							href="/wordpress"
 							class="font-karla text-lg font-normal text-darkestBlue uppercase underline transition-all duration-200"
 							>Learn More</a
 						>
@@ -160,7 +168,7 @@
 					</p>
 					<div class="flex items-center justify-start">
 						<a
-							href="/"
+							href="/headless-wordpress"
 							class="font-karla text-lg font-normal text-darkestBlue uppercase underline transition-all duration-200"
 							>Learn More</a
 						>
@@ -249,95 +257,164 @@
 		</div>
 	</section>
 	<section class="relative pt-10 pb-10 lg:pt-20 lg:pb-20">
-		<div class="container_2xl relative px-5 2xl:px-0">
-			<h2 class="text-center font-rubik text-4xl font-normal text-black lg:mb-16 lg:text-5xl">
+		<div class="container_xl relative px-5 2xl:px-0">
+			<h2 class="mb-10 text-center font-rubik text-4xl font-normal text-black lg:mb-16 lg:text-5xl">
 				What Clients Say
 			</h2>
 
-			<!-- <div class="relative">
-				<div bind:this={splideRoot} class="splide">
-					<div class="splide__track">
-						<div class="splide__list">
-							{#each testimonials as testimonial}
-								<div class="splide__slide">
-									<div class="overflow-hidden">
-										<div class="px-10 pt-5 pb-5">
-											<p class="text-center font-karla text-base font-light text-pretty lg:text-xl">
-												{@html testimonial.node.content}
-											</p>
-										</div>
-										<div class="px-10">
-											<p class="text-center font-rubik text-base font-bold text-black lg:text-xl">
-												{testimonial.node.title}
-											</p>
-											<p
-												class="font-regular text-center font-karla text-base text-black lg:text-lg"
-											>
-												{testimonial.node.testimonialsContent.title} | {testimonial.node
-													.testimonialsContent.company}
-											</p>
-										</div>
-									</div>
-								</div>
-							{/each}
+			<div class="flex flex-col flex-wrap items-start justify-center gap-8 lg:flex-row">
+				{#each testimonials as testimonial (testimonial.node.id)}
+					<div
+						class="w-full rounded-xl border border-gray-200 bg-white p-5 shadow-lg lg:w-[45%] lg:p-8"
+					>
+						<div class="relative">
+							<p
+								class="relative mb-3 font-karla text-lg font-light text-black {showId ===
+								testimonial.node.id
+									? ''
+									: 'review_text'}"
+							>
+								{testimonial.node.testimonialsContent.testimonial}
+							</p>
+							<button
+								onclick={(e) => {
+									e.preventDefault();
+									toggle(testimonial.node.id);
+								}}
+								class="see_more_btn cursor-pointer font-karla text-lg font-light text-lightBlue"
+							>
+								...{showId === testimonial.node.id ? 'show less' : 'show more'}
+							</button>
 						</div>
+
+						<p class="relative font-rubik text-base font-bold text-black lg:text-xl">
+							{testimonial.node.title}
+						</p>
+						<p class="relative font-karla text-base font-normal text-lightBlue lg:text-lg">
+							{testimonial.node.testimonialsContent.title} | {testimonial.node.testimonialsContent
+								.company}
+						</p>
 					</div>
+				{/each}
+				<!-- <div class="w-[45%] rounded-xl border border-gray-200 bg-white p-5 shadow-lg lg:p-8">
+					<div class="relative">
+						<p
+							class="relative mb-3 font-karla text-lg font-light text-black {showAll
+								? ''
+								: 'review_text'}"
+						>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
+							exercitationem fugit natus laboriosam. Fugit eaque ad praesentium, placeat voluptatum,
+							accusamus adipisci consequuntur hic rem laboriosam, saepe impedit officiis. Lorem
+							ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad exercitationem
+							fugit natus laboriosam. Fugit eaque ad praesentium, placeat voluptatum, accusamus
+							adipisci consequuntur hic rem laboriosam, saepe impedit officiis.
+						</p>
+						<button
+							onclick={(e) => {
+								e.preventDefault();
+								showAll = !showAll;
+							}}
+							class="see_more_btn cursor-pointer font-karla text-lg font-light text-lightBlue"
+						>
+							...{showAll ? 'show less' : 'show more'}
+						</button>
+					</div>
+
+					<p class="relative font-rubik text-base font-bold text-black lg:text-xl">Aaron Johnson</p>
+					<p class="relative font-karla text-base font-normal text-lightBlue lg:text-lg">
+						CEO | Big Moon Digital Solutions
+					</p>
+				</div>
+				<div class="w-[45%] rounded-xl border border-gray-200 bg-white p-5 shadow-lg lg:p-8">
+					<div class="relative">
+						<p class="review_text relative mb-3 font-karla text-lg font-light text-black">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
+							exercitationem fugit natus laboriosam. Fugit eaque ad praesentium, placeat voluptatum,
+							accusamus adipisci consequuntur hic rem laboriosam, saepe impedit officiis.
+						</p>
+						<button class="see_more_btn font-karla text-lg font-light text-lightBlue">
+							...see more
+						</button>
+					</div>
+
+					<p class="relative font-rubik text-base font-bold text-black lg:text-xl">Aaron Johnson</p>
+					<p class="relative font-karla text-base font-normal text-lightBlue lg:text-lg">
+						CEO | Big Moon Digital Solutions
+					</p>
+				</div>
+				<div class="w-[45%] rounded-xl border border-gray-200 bg-white p-5 shadow-lg lg:p-8">
+					<div class="relative">
+						<p class="review_text relative mb-3 font-karla text-lg font-light text-black">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
+							exercitationem fugit natus laboriosam. Fugit eaque ad praesentium, placeat voluptatum,
+							accusamus adipisci consequuntur hic rem laboriosam, saepe impedit officiis.
+						</p>
+						<button class="see_more_btn font-karla text-lg font-light text-lightBlue">
+							...see more
+						</button>
+					</div>
+
+					<p class="relative font-rubik text-base font-bold text-black lg:text-xl">Aaron Johnson</p>
+					<p class="relative font-karla text-base font-normal text-lightBlue lg:text-lg">
+						CEO | Big Moon Digital Solutions
+					</p>
+				</div> -->
+			</div>
+
+			<!-- <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+				<div class="rounded-xl border border-gray-200 bg-white p-5 shadow-lg lg:p-8">
+					<div class="relative">
+						<p class="review_text relative mb-3 font-karla text-lg font-light text-black">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
+							exercitationem fugit natus laboriosam. Fugit eaque ad praesentium, placeat voluptatum,
+							accusamus adipisci consequuntur hic rem laboriosam, saepe impedit officiis.
+						</p>
+						<button class="see_more_btn font-karla text-lg font-light text-lightBlue">
+							...see more
+						</button>
+					</div>
+
+					<p class="relative font-rubik text-base font-bold text-black lg:text-xl">Aaron Johnson</p>
+					<p class="relative font-karla text-base font-normal text-lightBlue lg:text-lg">
+						CEO | Big Moon Digital Solutions
+					</p>
+				</div>
+				<div class="rounded-xl border border-gray-200 bg-white p-5 shadow-lg lg:p-8">
+					<div class="relative">
+						<p class="review_text relative mb-3 font-karla text-lg font-light text-black">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
+							exercitationem fugit natus laboriosam. Fugit eaque ad praesentium, placeat voluptatum,
+							accusamus adipisci consequuntur hic rem laboriosam, saepe impedit officiis.
+						</p>
+						<button class="see_more_btn font-karla text-lg font-light text-lightBlue">
+							...see more
+						</button>
+					</div>
+
+					<p class="relative font-rubik text-base font-bold text-black lg:text-xl">Aaron Johnson</p>
+					<p class="relative font-karla text-base font-normal text-lightBlue lg:text-lg">
+						CEO | Big Moon Digital Solutions
+					</p>
+				</div>
+				<div class="rounded-xl border border-gray-200 bg-white p-5 shadow-lg lg:p-8">
+					<div class="relative">
+						<p class="review_text relative mb-3 font-karla text-lg font-light text-black">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
+							exercitationem fugit natus laboriosam. Fugit eaque ad praesentium, placeat voluptatum,
+							accusamus adipisci consequuntur hic rem laboriosam, saepe impedit officiis.
+						</p>
+						<button class="see_more_btn font-karla text-lg font-light text-lightBlue">
+							...see more
+						</button>
+					</div>
+
+					<p class="relative font-rubik text-base font-bold text-black lg:text-xl">Aaron Johnson</p>
+					<p class="relative font-karla text-base font-normal text-lightBlue lg:text-lg">
+						CEO | Big Moon Digital Solutions
+					</p>
 				</div>
 			</div> -->
-
-			<div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
-				<div class="rounded-xl border border-gray-200 bg-white p-8 shadow-lg">
-					<div class="relative">
-						<p class="review_text relative mb-3 font-karla text-lg font-light text-black">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
-							exercitationem fugit natus laboriosam. Fugit eaque ad praesentium, placeat voluptatum,
-							accusamus adipisci consequuntur hic rem laboriosam, saepe impedit officiis.
-						</p>
-						<button class="see_more_btn font-karla text-lg font-light text-lightBlue">
-							...see more
-						</button>
-					</div>
-
-					<p class="relative font-rubik text-base font-bold text-black lg:text-xl">Aaron Johnson</p>
-					<p class="relative font-karla text-base font-normal text-lightBlue lg:text-lg">
-						CEO | Big Moon Digital Solutions
-					</p>
-				</div>
-				<div class="rounded-xl border border-gray-200 bg-white p-8 shadow-lg">
-					<div class="relative">
-						<p class="review_text relative mb-3 font-karla text-lg font-light text-black">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
-							exercitationem fugit natus laboriosam. Fugit eaque ad praesentium, placeat voluptatum,
-							accusamus adipisci consequuntur hic rem laboriosam, saepe impedit officiis.
-						</p>
-						<button class="see_more_btn font-karla text-lg font-light text-lightBlue">
-							...see more
-						</button>
-					</div>
-
-					<p class="relative font-rubik text-base font-bold text-black lg:text-xl">Aaron Johnson</p>
-					<p class="relative font-karla text-base font-normal text-lightBlue lg:text-lg">
-						CEO | Big Moon Digital Solutions
-					</p>
-				</div>
-				<div class="rounded-xl border border-gray-200 bg-white p-8 shadow-lg">
-					<div class="relative">
-						<p class="review_text relative mb-3 font-karla text-lg font-light text-black">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
-							exercitationem fugit natus laboriosam. Fugit eaque ad praesentium, placeat voluptatum,
-							accusamus adipisci consequuntur hic rem laboriosam, saepe impedit officiis.
-						</p>
-						<button class="see_more_btn font-karla text-lg font-light text-lightBlue">
-							...see more
-						</button>
-					</div>
-
-					<p class="relative font-rubik text-base font-bold text-black lg:text-xl">Aaron Johnson</p>
-					<p class="relative font-karla text-base font-normal text-lightBlue lg:text-lg">
-						CEO | Big Moon Digital Solutions
-					</p>
-				</div>
-			</div>
 		</div>
 	</section>
 	<section class="relative overflow-hidden bg-darkBackground pt-10 pb-10 lg:pt-20 lg:pb-20">
@@ -378,7 +455,7 @@
 		display: box;
 		box-orient: vertical;
 		display: -webkit-box;
-		-webkit-line-clamp: 4;
+		-webkit-line-clamp: 3;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
 	}

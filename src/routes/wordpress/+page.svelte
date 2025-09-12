@@ -7,7 +7,7 @@
 					<h1
 						class="mb-6 font-rubik text-4xl leading-[1.1] font-bold text-pretty text-white lg:text-6xl"
 					>
-						WordPress Development
+						WordPress
 					</h1>
 					<p class="mb-7 font-karla text-xl font-light text-white">
 						WordPress is a popular open-source content management system (CMS) that makes it easy to
@@ -19,7 +19,7 @@
 						<a
 							href="/"
 							class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
-							>Build My Website</a
+							>Get Started</a
 						>
 					</div>
 				</div>
@@ -49,7 +49,12 @@
 	<section class="relative bg-darkBackground">
 		<div class="container_lg px-5 2xl:px-0">
 			<div class="-translate-y-16 lg:-translate-y-32">
-				<img src="/wordpress.jpg" alt="" class="w-full rounded-4xl" />
+				<!-- <img src="/wordpress.jpg" alt="" class="w-full rounded-4xl" /> -->
+				<!-- <img src="/builder.jpeg" alt="" class="w-full rounded-4xl" /> -->
+				<div class="h-[350px] w-full overflow-hidden rounded-4xl lg:h-[550px]">
+					<!-- <img src="/woman_design.webp" alt="" class="h-full w-full object-cover" /> -->
+					<img src="/builder.webp" alt="" class="h-full w-full object-cover object-top" />
+				</div>
 				<div
 					class="mt-10 flex flex-col items-start justify-center gap-5 lg:mt-16 lg:flex-row lg:items-center lg:gap-10"
 				>

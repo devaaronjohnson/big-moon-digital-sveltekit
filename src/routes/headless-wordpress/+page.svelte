@@ -26,16 +26,12 @@
 					</div>
 				</div>
 				<div class="flex-1">
-					<img
-						src="/wordpress_hero.jpg"
-						alt=""
-						class="w-full rounded-4xl border-12 border-white/10"
-					/>
+					<img src="/headless.webp" alt="" class="w-full rounded-4xl border-12 border-white/10" />
 				</div>
 			</div>
 		</div>
 	</header>
-	<section class="pt-10 pb-20 lg:pt-20 lg:pb-44">
+	<section class="bg-[#f6f6f6] pt-10 pb-20 lg:pt-20 lg:pb-24">
 		<div class="container_xl px-5 2xl:px-0">
 			<h2 class="mb-12 text-center font-rubik text-4xl font-normal lg:text-5xl">
 				What are the benefits?
@@ -116,7 +112,7 @@
 			</p> -->
 		</div>
 	</section>
-	<section class="relative bg-darkBackground">
+	<!-- <section class="relative bg-darkBackground">
 		<div class="container_lg px-5 2xl:px-0">
 			<div class="-translate-y-16 lg:-translate-y-32">
 				<img src="/wordpress.jpg" alt="" class="w-full rounded-4xl" />
@@ -138,8 +134,8 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="bg-[#f3f3f3] pt-10 pb-10 lg:pt-20 lg:pb-20">
+	</section> -->
+	<section class="bg-white pt-10 pb-10 lg:pt-20 lg:pb-20">
 		<div class="container_xl px-5 2xl:px-0">
 			<h2
 				class="mb-5 text-center font-rubik text-4xl leading-[1.1] font-normal text-balance lg:text-5xl"
