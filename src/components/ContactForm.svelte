@@ -1,5 +1,6 @@
 <script>
-	import { preventDefault } from 'svelte/legacy';
+	// import { preventDefault } from 'svelte/legacy';
+	import { goto } from '$app/navigation';
 
 	let name = $state('');
 	let email = $state('');

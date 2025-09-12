@@ -1,6 +1,6 @@
 <main class="relative overflow-x-hidden">
 	<header class="relative bg-darkBackground pt-32 pb-10 lg:pt-44 lg:pb-20">
-		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-[0.03]" />
+		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-[0.05]" />
 		<div class="container_xl px-5 2xl:px-0">
 			<div class="flex flex-col items-center gap-10 lg:flex-row lg:gap-20">
 				<div class="flex-1">
@@ -39,10 +39,10 @@
 				Websites Built for Speed & Results
 			</h2>
 			<p class="text-center font-karla text-xl font-light text-pretty">
-				Say goodbye to slow, clunky websites. We build lightning-fast, SEO-optimized Webflow sites
-				with custom CMS architectures, sleek animations, and editor-friendly interfaces. Whether you
-				need a marketing site or a scalable web app, we deliver performance and polish without
-				bloated code.
+				Say goodbye to bloated, cookie-cutter WordPress builds. We create lightning-fast,
+				SEO-optimized WordPress websites with custom themes, flexible CMS setups, and intuitive
+				editing experiences. From marketing sites to full-scale e-commerce platforms, we deliver
+				performance and polish without unnecessary plugins or messy code.
 			</p>
 		</div>
 	</section>
