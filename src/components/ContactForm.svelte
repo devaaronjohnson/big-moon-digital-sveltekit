@@ -29,7 +29,7 @@
 			return;
 		}
 
-		const url = 'https://ajdev.flywheelsites.com/';
+		const url = 'https://api.bigmoondigital.io/wp-json/gf/v2/forms/1/submissions';
 
 		const formData = {
 			input_1: name,

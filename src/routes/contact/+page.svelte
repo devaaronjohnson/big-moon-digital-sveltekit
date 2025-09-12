@@ -25,9 +25,18 @@
 					Let's Build Something Awesome!
 				</h1>
 				<p class="mb-5 font-karla text-xl font-light text-white">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste soluta earum
-					corporis rem, repellendus error eos sequi consequatur officiis.
+					We would love to chat about your next project. Fill out the form or click on the link
+					below to schedule a meeting.
 				</p>
+				<div class="flex items-center justify-start">
+					<a
+						href="https://calendly.com/aaron-bigmoondigital/30min"
+						target="_blank"
+						aria-label="Opens in a new tab"
+						class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
+						>Schedule a Meeting</a
+					>
+				</div>
 				<!-- <p class="font-karla text-xl font-light text-white">
 					<a href=".">629-230-4121</a>
 				</p> -->

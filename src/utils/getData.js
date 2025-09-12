@@ -1,5 +1,5 @@
 export async function getData({ query, variables }) {
-  const endpoint = 'https://ajdev.flywheelsites.com/graphql';
+  const endpoint = 'https://api.bigmoondigital.io/graphql';
 
   try {
     const result = await fetch(endpoint, {
