@@ -41,9 +41,9 @@
 	<section class="pt-10 pb-20 lg:pt-20 lg:pb-24">
 		<div class="container_lg px-5 2xl:px-0">
 			<h2 class="mb-6 text-center font-rubik text-4xl font-normal text-balance lg:text-5xl">
-				Designed with Your Business and Users In Mind
+				Websites Designed with Your Business and Users In Mind
 			</h2>
-			<p class="px-10 text-center font-karla text-xl font-light text-pretty">
+			<p class="text-center font-karla text-xl font-light text-balance">
 				In order to successfully deliver a website designed for your business and your users, we
 				consult with you to understand the focus and needs of your business, and the users that you
 				are trying to reach. With that in mind we can then begin to create a design that includes a
@@ -51,14 +51,14 @@
 			</p>
 		</div>
 	</section>
-	<section class="relative bg-darkBackground py-10 lg:py-20">
+	<section class="relative bg-[#f6f6f6] pt-10 pb-10 lg:pt-20 lg:pb-20">
 		<div class="container_xl px-5 2xl:px-0">
-			<h2 class="mb-10 text-center font-rubik text-4xl font-normal text-white lg:mb-20 lg:text-5xl">
-				Some Design Examples
+			<h2 class="mb-10 text-center font-rubik text-4xl font-normal text-black lg:mb-20 lg:text-5xl">
+				Design Examples
 			</h2>
-			<div class="grid grid-cols-1 gap-20 lg:grid-cols-2">
+			<div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
 				<div class="relative">
-					<div class="relative mb-5 h-[300px] lg:h-[550px]">
+					<div class="relative h-[300px] rounded-2xl shadow-lg lg:h-[550px]">
 						<img
 							src="/carma.jpg"
 							alt="Carma"
@@ -72,16 +72,14 @@
 						</a>
 					</div>
 
-					<h3 class="relative mb-5 font-rubik text-3xl font-normal text-white lg:text-4xl">
-						Carma
-					</h3>
-					<div class="relative flex flex-row flex-wrap items-center gap-3">
+					<!-- <h3 class="relativefont-rubik text-3xl font-normal text-black lg:text-4xl">Carma</h3> -->
+					<!-- <div class="relative flex flex-row flex-wrap items-center gap-3">
 						<ProjectPill text="Wordpress" />
 						<ProjectPill text="Web Design" />
-					</div>
+					</div> -->
 				</div>
 				<div class="relative">
-					<div class="relative mb-5 h-[300px] lg:h-[550px]">
+					<div class="relative h-[300px] rounded-2xl shadow-lg lg:h-[550px]">
 						<img
 							src="/smiley.jpg"
 							alt="Smiley Aesthetics"
@@ -95,16 +93,16 @@
 						</a>
 					</div>
 
-					<h3 class="relative mb-5 font-rubik text-3xl font-normal text-white lg:text-4xl">
+					<!-- <h3 class="relative mb-5 font-rubik text-3xl font-normal text-black lg:text-4xl">
 						Smiley Aesthetics
-					</h3>
-					<div class="relative flex flex-row flex-wrap items-center gap-3">
+					</h3> -->
+					<!-- <div class="relative flex flex-row flex-wrap items-center gap-3">
 						<ProjectPill text="Wordpress" />
 						<ProjectPill text="Web Design" />
-					</div>
+					</div> -->
 				</div>
 				<div class="relative">
-					<div class="relative mb-5 h-[300px] lg:h-[550px]">
+					<div class="relative h-[300px] rounded-2xl shadow-lg lg:h-[550px]">
 						<img
 							src="/connie_chadwick.jpg"
 							alt="Connie Chadwick Law"
@@ -118,20 +116,20 @@
 						</a>
 					</div>
 
-					<h3 class="mb-5 font-rubik text-3xl font-normal text-white lg:text-4xl">
+					<!-- <h3 class="mb-5 font-rubik text-3xl font-normal text-black lg:text-4xl">
 						Connie Chadwick Law
-					</h3>
-					<div class="flex flex-row flex-wrap items-center gap-3">
+					</h3> -->
+					<!-- <div class="flex flex-row flex-wrap items-center gap-3">
 						<ProjectPill text="Web Design" />
 						<ProjectPill text="Headless Wordpress" />
 						<ProjectPill text="Javascript" />
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="pt-10 pb-10 lg:pt-20 lg:pb-20">
+	<section class="bg-white pt-10 pb-10 lg:pt-20 lg:pb-20">
 		<div class="container_xl px-5 2xl:px-0">
 			<h2
 				class="mb-5 text-center font-rubik text-4xl leading-[1.1] font-normal text-balance lg:text-5xl"
