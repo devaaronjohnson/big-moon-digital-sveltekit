@@ -90,7 +90,7 @@
 						</li>
 						<!-- <li class="font-karla font-light text-white">Portfolio</li> -->
 						<!-- <li class="font-karla font-light text-white">Blog</li> -->
-						<li class="font-karla text-lg font-light text-white">
+						<!-- <li class="font-karla text-lg font-light text-white">
 							<a
 								onclick={() => {
 									showServices = false;
@@ -100,7 +100,7 @@
 							>
 								Blog
 							</a>
-						</li>
+						</li> -->
 						<li class="font-karla text-lg font-light text-white">
 							<a
 								onclick={() => {
@@ -147,93 +147,93 @@
 	>
 		<a
 			href="."
-			class="absolute top-4 right-4"
+			class="absolute top-8 right-8"
 			onclick={(e) => {
 				e.preventDefault();
 				showMobileMenu = false;
 			}}
 		>
-			<img src="/close.svg" alt="" class="h-10 w-auto" />
+			<img src="/close.svg" alt="" class="h-7 w-auto" />
 		</a>
-		<p class="relative text-white">
+		<p class="relative mb-2 text-white">
 			<a
 				onclick={() => {
 					showMobileMenu = false;
 				}}
 				href="/"
-				class="font-bi text-center text-4xl font-normal">Home</a
+				class="font-bi text-center text-3xl font-normal">Home</a
 			>
 		</p>
-		<p class="relative text-white">
+		<p class="relative mb-2 text-white">
 			<a
 				onclick={() => {
 					showMobileMenu = false;
 				}}
 				href="/about"
-				class="font-bi text-center text-4xl font-normal">About</a
+				class="font-bi text-center text-3xl font-normal">About</a
 			>
 		</p>
-		<p class="relative text-white">
+		<p class="relative mb-2 text-white">
 			<a
 				onclick={() => {
 					showMobileMenu = false;
 				}}
 				href="/web-design"
-				class="font-bi text-center text-4xl font-normal">Web Design</a
+				class="font-bi text-center text-3xl font-normal">Web Design</a
 			>
 		</p>
-		<p class="relative text-white">
+		<p class="relative mb-2 text-white">
 			<a
 				onclick={() => {
 					showMobileMenu = false;
 				}}
 				href="/wordpress"
-				class="font-bi text-center text-4xl font-normal">Wordpress</a
+				class="font-bi text-center text-3xl font-normal">Wordpress</a
 			>
 		</p>
-		<p class="relative text-white">
+		<p class="relative mb-2 text-white">
 			<a
 				onclick={() => {
 					showMobileMenu = false;
 				}}
 				href="/headless-wordpress"
-				class="font-bi text-center text-4xl font-normal">Headless Wordpress</a
+				class="font-bi text-center text-3xl font-normal">Headless Wordpress</a
 			>
 		</p>
-		<!-- <p class="relative text-white">
+		<!-- <p class="relative text-white mb-2">
 			<a
 				onclick={() => {
 					showMobileMenu = false;
 				}}
 				href="/javascript-development"
-				class="font-bi text-center text-4xl font-normal">Javascript Development</a
+				class="font-bi text-center text-3xl font-normal">Javascript Development</a
 			>
 		</p> -->
-		<p class="relative text-white">
+		<!-- <p class="relative text-white mb-2">
 			<a
 				onclick={() => {
 					showMobileMenu = false;
 				}}
 				href="/work"
-				class="font-bi text-center text-4xl font-normal">Work</a
+				class="font-bi text-center text-3xl font-normal">Work</a
 			>
-		</p>
-		<p class="relative text-white">
+		</p> -->
+		<!-- <p class="relative text-white mb-2">
 			<a
 				onclick={() => {
 					showMobileMenu = false;
 				}}
 				href="/blog"
-				class="font-bi text-center text-4xl font-normal">Blog</a
+				class="font-bi text-center text-3xl font-normal">Blog</a
 			>
-		</p>
-		<p class="relative text-white">
+		</p> -->
+		<p class="relative mb-2 text-white">
 			<a
 				onclick={() => {
 					showMobileMenu = false;
 				}}
 				href="/contact"
-				class="font-bi text-center text-4xl font-normal">Contact</a
+				class="font-bi text-center text-3xl font-normal">Contact</a
 			>
 		</p>
 	</div>
