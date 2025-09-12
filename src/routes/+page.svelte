@@ -95,8 +95,8 @@
 					</div>
 				</div>
 				<div class="w-full lg:flex-1">
-					<div class="h-[250px] overflow-hidden rounded-2xl lg:h-[350px]">
-						<img src="/all_phases.webp" alt="" class="h-full w-full object-cover" />
+					<div class="h-[250px] overflow-hidden rounded-2xl lg:h-[375px]">
+						<img src="/all_home.webp" alt="" class="h-full w-full object-cover" />
 					</div>
 				</div>
 			</div>
@@ -250,43 +250,12 @@
 	</section>
 	<section class="relative pt-10 pb-10 lg:pt-20 lg:pb-20">
 		<div class="container_2xl relative px-5 2xl:px-0">
-			<h2 class="text-center font-rubik text-4xl font-normal text-black lg:mb-16 lg:text-5xl">
+			<h2 class="mb-10 text-center font-rubik text-4xl font-normal text-black lg:mb-16 lg:text-5xl">
 				What Clients Say
 			</h2>
 
-			<!-- <div class="relative">
-				<div bind:this={splideRoot} class="splide">
-					<div class="splide__track">
-						<div class="splide__list">
-							{#each testimonials as testimonial}
-								<div class="splide__slide">
-									<div class="overflow-hidden">
-										<div class="px-10 pt-5 pb-5">
-											<p class="text-center font-karla text-base font-light text-pretty lg:text-xl">
-												{@html testimonial.node.content}
-											</p>
-										</div>
-										<div class="px-10">
-											<p class="text-center font-rubik text-base font-bold text-black lg:text-xl">
-												{testimonial.node.title}
-											</p>
-											<p
-												class="font-regular text-center font-karla text-base text-black lg:text-lg"
-											>
-												{testimonial.node.testimonialsContent.title} | {testimonial.node
-													.testimonialsContent.company}
-											</p>
-										</div>
-									</div>
-								</div>
-							{/each}
-						</div>
-					</div>
-				</div>
-			</div> -->
-
 			<div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
-				<div class="rounded-xl border border-gray-200 bg-white p-8 shadow-lg">
+				<div class="rounded-xl border border-gray-200 bg-white p-5 shadow-lg lg:p-8">
 					<div class="relative">
 						<p class="review_text relative mb-3 font-karla text-lg font-light text-black">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
@@ -303,7 +272,7 @@
 						CEO | Big Moon Digital Solutions
 					</p>
 				</div>
-				<div class="rounded-xl border border-gray-200 bg-white p-8 shadow-lg">
+				<div class="rounded-xl border border-gray-200 bg-white p-5 shadow-lg lg:p-8">
 					<div class="relative">
 						<p class="review_text relative mb-3 font-karla text-lg font-light text-black">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
@@ -320,7 +289,7 @@
 						CEO | Big Moon Digital Solutions
 					</p>
 				</div>
-				<div class="rounded-xl border border-gray-200 bg-white p-8 shadow-lg">
+				<div class="rounded-xl border border-gray-200 bg-white p-5 shadow-lg lg:p-8">
 					<div class="relative">
 						<p class="review_text relative mb-3 font-karla text-lg font-light text-black">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
