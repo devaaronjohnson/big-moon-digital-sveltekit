@@ -4,7 +4,8 @@
 			<div class="w-full lg:w-[300px]">
 				<img src="/bm_black.svg" alt="Big Moon Digital Solutions" class="h-28" />
 				<p class="mt-5 font-karla text-lg font-light text-black">
-					We can build you the greatest damn website.
+					We are a web development studio that focuses primarily on Wordpress and Javascript based
+					websites.
 				</p>
 			</div>
 			<div class="w-full pt-0 lg:w-[150px] lg:pt-20">
