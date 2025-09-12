@@ -70,7 +70,7 @@
 												href="/wordpress-development"
 												class="relative"
 											>
-												Wordpress Development
+												Wordpress
 											</a>
 										</li>
 										<li class="font-karla text-lg leading-relaxed font-light text-black">
@@ -84,7 +84,7 @@
 												Headless Wordpress
 											</a>
 										</li>
-										<li class="font-karla text-lg leading-relaxed font-light text-black">
+										<!-- <li class="font-karla text-lg leading-relaxed font-light text-black">
 											<a
 												onclick={() => {
 													showServices = false;
@@ -94,7 +94,7 @@
 											>
 												Javascript Development
 											</a>
-										</li>
+										</li> -->
 									</ul>
 								</div>
 							{/if}
@@ -125,7 +125,7 @@
 						</li>
 					</ul>
 					<a
-						href="https://calendly.com/aaronjohnsondev/30min"
+						href="https://calendly.com/aaron-bigmoondigital/30min"
 						target="_blank"
 						aria-label="Opens in a new tab"
 						class="ml-16 hidden rounded-full border border-darkestBlue bg-darkestBlue px-7 py-3 font-karla text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue lg:block"
@@ -199,7 +199,7 @@
 					showMobileMenu = false;
 				}}
 				href="/wordpress-development"
-				class="font-bi text-center text-4xl font-normal">Wordpress Development</a
+				class="font-bi text-center text-4xl font-normal">Wordpress</a
 			>
 		</p>
 		<p class="relative text-white">
@@ -211,7 +211,7 @@
 				class="font-bi text-center text-4xl font-normal">Headless Wordpress</a
 			>
 		</p>
-		<p class="relative text-white">
+		<!-- <p class="relative text-white">
 			<a
 				onclick={() => {
 					showMobileMenu = false;
@@ -219,7 +219,7 @@
 				href="/javascript-development"
 				class="font-bi text-center text-4xl font-normal">Javascript Development</a
 			>
-		</p>
+		</p> -->
 		<p class="relative text-white">
 			<a
 				onclick={() => {

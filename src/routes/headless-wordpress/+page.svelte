@@ -19,9 +19,9 @@
 					</p>
 					<div class="flex items-center justify-start">
 						<a
-							href="/"
+							href="/contact"
 							class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
-							>Build My Website</a
+							>Get Started</a
 						>
 					</div>
 				</div>
@@ -144,35 +144,59 @@
 			<h2
 				class="mb-5 text-center font-rubik text-4xl leading-[1.1] font-normal text-balance lg:text-5xl"
 			>
-				Our Wordpress Process
+				A Simple Process that Works
 			</h2>
 			<div class="mt-10 grid grid-cols-1 gap-10 lg:mt-20 lg:grid-cols-3">
-				<div class="rounded-4xl border border-[#ddd] bg-white p-12 shadow-lg">
+				<div class="rounded-4xl border border-[#ddd] p-12 shadow-lg">
 					<div class="mb-5 flex items-center justify-center">
 						<img src="/glass.svg" alt="" class="h-12" />
 					</div>
-					<p class="mb-5 text-center font-rubik text-3xl font-normal">1. Plan & Architect</p>
+					<p class="mb-5 text-center font-rubik text-3xl font-normal">Discover</p>
 					<p class="mb-5 text-center font-karla text-lg font-light">
-						We dive deep into your goals and must-haves to craft a battle plan.
+						We dive deep into understanding your business, goals, and audience to create a clear
+						roadmap for success.
 					</p>
+					<div class="flex items-center justify-center">
+						<p
+							class="rounded-full border-2 border-darkestBlue bg-transparent px-8 py-2 font-karla text-base font-normal text-darkestBlue transition-all duration-200"
+						>
+							Step 1
+						</p>
+					</div>
 				</div>
-				<div class="rounded-4xl border border-[#ddd] bg-white p-12 shadow-lg">
+				<div class="rounded-4xl border border-[#ddd] p-12 shadow-lg">
 					<div class="mb-5 flex items-center justify-center">
 						<img src="/compass.svg" alt="" class="h-12" />
 					</div>
-					<p class="mb-5 text-center font-rubik text-3xl font-normal">2. Build & Optimize</p>
+					<p class="mb-5 text-center font-rubik text-3xl font-normal">Design & Build</p>
 					<p class="mb-5 text-center font-karla text-lg font-light">
-						We dive deep into your goals and must-haves to craft a battle plan.
+						We craft a visually stunning, user-friendly website tailored to your brand and built for
+						performance.
 					</p>
+					<div class="flex items-center justify-center">
+						<p
+							class="rounded-full border-2 border-darkestBlue bg-transparent px-8 py-2 font-karla text-base font-normal text-darkestBlue transition-all duration-200"
+						>
+							Step 2
+						</p>
+					</div>
 				</div>
-				<div class="rounded-4xl border border-[#ddd] bg-white p-12 shadow-lg">
+				<div class="rounded-4xl border border-[#ddd] p-12 shadow-lg">
 					<div class="mb-5 flex items-center justify-center">
 						<img src="/rocket.svg" alt="" class="h-12" />
 					</div>
-					<p class="mb-5 text-center font-rubik text-3xl font-normal">Launch & Scale</p>
+					<p class="mb-5 text-center font-rubik text-3xl font-normal">Launch & Grow</p>
 					<p class="mb-5 text-center font-karla text-lg font-light">
-						We dive deep into your goals and must-haves to craft a battle plan.
+						We launch your site with confidence and provide ongoing support to help your business
+						evolve and thrive.
 					</p>
+					<div class="flex items-center justify-center">
+						<p
+							class="rounded-full border-2 border-darkestBlue bg-transparent px-8 py-2 font-karla text-base font-normal text-darkestBlue transition-all duration-200"
+						>
+							Step 3
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -191,7 +215,7 @@
 			</p>
 			<div class="flex items-center justify-center">
 				<a
-					href="https://calendly.com/aaronjohnsondev/30min"
+					href="https://calendly.com/aaron-bigmoondigital/30min"
 					target="_blank"
 					aria-label="Opens in a new tab"
 					class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
@@ -201,9 +225,9 @@
 			<p class="mt-10 text-center font-karla text-xl font-light text-white">Prefer email?</p>
 			<div class="flex items-center justify-center">
 				<a
-					href="mailto:hello@bigmoondigital.io"
+					href="mailto:aaron@bigmoondigital.io"
 					class="text-center font-karla text-xl font-light text-white underline"
-					>hello@bigmoondigital.io</a
+					>aaron@bigmoondigital.io</a
 				>
 			</div>
 		</div>
