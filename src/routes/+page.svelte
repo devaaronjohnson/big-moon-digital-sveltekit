@@ -82,7 +82,7 @@
 					</h2>
 					<p class="mb-6 font-karla text-xl font-light">
 						We believe that designers, developers, and digital marketers should work seamlessly,
-						collaborating to bring the best of all parts to the completed product. Good digital
+						collaborating to bring the best of all parts to the completed product. Great digital
 						products should be beautiful, user-friendly, and capable of bringing results.
 					</p>
 					<div class="flex items-center justify-start">
@@ -274,12 +274,12 @@
 		</div>
 	</section>
 	<section class="relative pt-10 pb-10 lg:pt-20 lg:pb-20">
-		<div class="container_lg relative px-5 2xl:px-10">
-			<h2 class="text-center font-rubik text-4xl font-normal text-black lg:mb-20 lg:text-5xl">
+		<div class="container_2xl relative px-5 2xl:px-0">
+			<h2 class="text-center font-rubik text-4xl font-normal text-black lg:mb-16 lg:text-5xl">
 				What Clients Say
 			</h2>
 
-			<div class="relative">
+			<!-- <div class="relative">
 				<div bind:this={splideRoot} class="splide">
 					<div class="splide__track">
 						<div class="splide__list">
@@ -307,6 +307,60 @@
 							{/each}
 						</div>
 					</div>
+				</div>
+			</div> -->
+
+			<div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+				<div class="rounded-xl border border-gray-200 bg-white p-8 shadow-lg">
+					<div class="relative">
+						<p class="review_text relative mb-3 font-karla text-lg font-light text-black">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
+							exercitationem fugit natus laboriosam. Fugit eaque ad praesentium, placeat voluptatum,
+							accusamus adipisci consequuntur hic rem laboriosam, saepe impedit officiis.
+						</p>
+						<button class="see_more_btn font-karla text-lg font-light text-lightBlue">
+							...see more
+						</button>
+					</div>
+
+					<p class="relative font-rubik text-base font-bold text-black lg:text-xl">Aaron Johnson</p>
+					<p class="relative font-karla text-base font-normal text-lightBlue lg:text-lg">
+						CEO | Big Moon Digital Solutions
+					</p>
+				</div>
+				<div class="rounded-xl border border-gray-200 bg-white p-8 shadow-lg">
+					<div class="relative">
+						<p class="review_text relative mb-3 font-karla text-lg font-light text-black">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
+							exercitationem fugit natus laboriosam. Fugit eaque ad praesentium, placeat voluptatum,
+							accusamus adipisci consequuntur hic rem laboriosam, saepe impedit officiis.
+						</p>
+						<button class="see_more_btn font-karla text-lg font-light text-lightBlue">
+							...see more
+						</button>
+					</div>
+
+					<p class="relative font-rubik text-base font-bold text-black lg:text-xl">Aaron Johnson</p>
+					<p class="relative font-karla text-base font-normal text-lightBlue lg:text-lg">
+						CEO | Big Moon Digital Solutions
+					</p>
+				</div>
+				<div class="rounded-xl border border-gray-200 bg-white p-8 shadow-lg">
+					<div class="relative">
+						<p class="review_text relative mb-3 font-karla text-lg font-light text-black">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eligendi. Ad
+							exercitationem fugit natus laboriosam. Fugit eaque ad praesentium, placeat voluptatum,
+							accusamus adipisci consequuntur hic rem laboriosam, saepe impedit officiis.
+						</p>
+						<button class="see_more_btn font-karla text-lg font-light text-lightBlue">
+							...see more
+						</button>
+					</div>
+
+					<p class="relative font-rubik text-base font-bold text-black lg:text-xl">Aaron Johnson</p>
+					<p class="relative font-karla text-base font-normal text-lightBlue lg:text-lg">
+						CEO | Big Moon Digital Solutions
+					</p>
 				</div>
 			</div>
 		</div>
@@ -342,3 +396,27 @@
 		</div>
 	</section>
 </main>
+
+<style>
+	.review_text {
+		line-clamp: 3;
+		display: box;
+		box-orient: vertical;
+		display: -webkit-box;
+		-webkit-line-clamp: 4;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+	.see_more_btn {
+		display: flex;
+		justify-content: flex-end;
+		width: 230px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		inset-inline-end: 0;
+		inset-block-end: 0;
+		background: linear-gradient(to right, transparent, #fff 60%);
+		/* background: #eee; */
+	}
+</style>
