@@ -249,7 +249,7 @@
 		</div>
 	</section>
 	<section class="relative pt-10 pb-10 lg:pt-20 lg:pb-20">
-		<div class="container_2xl relative px-5 2xl:px-0">
+		<div class="container_xl relative px-5 2xl:px-0">
 			<h2 class="mb-10 text-center font-rubik text-4xl font-normal text-black lg:mb-16 lg:text-5xl">
 				What Clients Say
 			</h2>

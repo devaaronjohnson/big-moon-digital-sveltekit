@@ -10,7 +10,7 @@
 	// }
 </script>
 
-<main>
+<main class="overflow-hidden">
 	<section class="relative bg-darkBackground pt-48 pb-20">
 		<img
 			src="/digital_moon.svg"
