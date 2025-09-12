@@ -25,7 +25,7 @@
 				</div>
 				<div class="flex-1">
 					<img
-						src="/wordpress_hero.jpg"
+						src="/wordpress_dev.webp"
 						alt=""
 						class="w-full rounded-4xl border-12 border-white/10"
 					/>

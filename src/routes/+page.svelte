@@ -107,7 +107,7 @@
 			<h2 class="mb-10 text-center font-rubik text-4xl font-normal lg:mb-20 lg:text-5xl">
 				Services Offered
 			</h2>
-			<div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+			<div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
 					<div class="mb-3">
 						<img src="/figma.webp" alt="" class="h-12" />
@@ -130,9 +130,7 @@
 					<div class="mb-3">
 						<img src="/wordpress_full.webp" alt="" class="h-12" />
 					</div>
-					<h3 class="mb-5 font-rubik text-3xl font-normal text-darkestBlue">
-						Wordpress Development
-					</h3>
+					<h3 class="mb-5 font-rubik text-3xl font-normal text-darkestBlue">Wordpress</h3>
 					<p class="mb-5 font-karla text-xl font-light">
 						We believe Wordpress is the most easy to use CMS for users that need to focus on their
 						business and not their website, and the numbers support this since 44% of all websites
@@ -172,7 +170,7 @@
 						>
 					</div>
 				</div>
-				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
+				<!-- <div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
 					<div class="gap-3=5 mb-3 flex flex-row items-center">
 						<img src="/svelte_full.webp" alt="" class="mr-2 h-12" />
 						<img src="/react.webp" alt="" class="h-12" />
@@ -192,7 +190,7 @@
 							>Learn More</a
 						>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>
@@ -282,23 +280,6 @@
 			</h2>
 
 			<div class="relative">
-				<!-- <Splide aria-label="My Favorite Images">
-					<SplideSlide>
-						<div class="overflow-hidden">
-							<div class="px-10 pt-5 pb-5">
-								<p class="text-center font-karla text-lg font-light text-pretty">
-									“We struggled with user drop-offs for months. Web Rocket redesigned our dashboard
-									with intuitive workflows, and our retention skyrocketed by 40% in 30 days. Their
-									team actually listens to users—no ego, just data-driven design.”
-								</p>
-							</div>
-							<div class="px-10">
-								<p class="text-center font-rubik text-xl font-bold text-black">Sarah K.</p>
-								<p class="text-center font-karla text-lg font-light text-black">CEO of SaaSFlow</p>
-							</div>
-						</div>
-					</SplideSlide>
-				</Splide> -->
 				<div bind:this={splideRoot} class="splide">
 					<div class="splide__track">
 						<div class="splide__list">
