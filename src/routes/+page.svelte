@@ -90,7 +90,7 @@
 						<a
 							href="/"
 							class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
-							>Know More About Us</a
+							>Get Started</a
 						>
 					</div>
 				</div>
