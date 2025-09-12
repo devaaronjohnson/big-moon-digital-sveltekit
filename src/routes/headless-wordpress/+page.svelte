@@ -31,7 +31,7 @@
 			</div>
 		</div>
 	</header>
-	<section class="bg-[#f6f6f6] pt-10 pb-20 lg:pt-20 lg:pb-44">
+	<section class="bg-[#f6f6f6] pt-10 pb-20 lg:pt-20 lg:pb-24">
 		<div class="container_xl px-5 2xl:px-0">
 			<h2 class="mb-12 text-center font-rubik text-4xl font-normal lg:text-5xl">
 				What are the benefits?

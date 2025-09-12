@@ -1,3 +1,7 @@
+<script>
+	import { ProjectPill } from '$components';
+</script>
+
 <main class="relative overflow-x-hidden">
 	<header class="relative bg-darkBackground pt-32 pb-10 lg:pt-44 lg:pb-20">
 		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-[0.03]" />
@@ -10,16 +14,17 @@
 						Web Design
 					</h1>
 					<p class="mb-7 font-karla text-xl font-light text-white">
-						WordPress is a popular open-source content management system (CMS) that makes it easy to
-						build and manage websites without needing advanced coding skills. It's highly flexible,
-						offering thousands of themes, plugins, and customization options for everything from
-						blogs to full business websites and e-commerce stores.
+						We create custom, visually engaging websites that are designed to capture attention and
+						deliver results. My approach combines clean, modern design with user-friendly layouts to
+						ensure your site not only looks great but also works seamlessly across all devices.
+						Every design is tailored to reflect your brand and provide visitors with a professional,
+						intuitive online experience.
 					</p>
 					<div class="flex items-center justify-start">
 						<a
 							href="/"
 							class="rounded-full border border-darkestBlue bg-darkestBlue px-8 py-3 font-karla text-base font-normal text-white uppercase transition-all duration-200 hover:border-darkBlue hover:bg-darkBlue"
-							>Build My Website</a
+							>Get Started</a
 						>
 					</div>
 				</div>
@@ -33,47 +38,99 @@
 			</div>
 		</div>
 	</header>
-	<section class="pt-10 pb-20 lg:pt-20 lg:pb-44">
+	<section class="pt-10 pb-20 lg:pt-20 lg:pb-24">
 		<div class="container_lg px-5 2xl:px-0">
-			<h2 class="mb-6 text-center font-rubik text-4xl font-normal lg:text-5xl">
-				Websites Built for Speed & Results
+			<h2 class="mb-6 text-center font-rubik text-4xl font-normal text-balance lg:text-5xl">
+				Designed with Your Business and Users In Mind
 			</h2>
-			<p class="text-center font-karla text-xl font-light text-pretty">
-				Say goodbye to slow, clunky websites. We build lightning-fast, SEO-optimized Webflow sites
-				with custom CMS architectures, sleek animations, and editor-friendly interfaces. Whether you
-				need a marketing site or a scalable web app, we deliver performance and polish without
-				bloated code.
+			<p class="px-10 text-center font-karla text-xl font-light text-pretty">
+				In order to successfully deliver a website designed for your business and your users, we
+				consult with you to understand the focus and needs of your business, and the users that you
+				are trying to reach. With that in mind we can then begin to create a design that includes a
+				sitemap and features that are going to be most effective for your business.
 			</p>
 		</div>
 	</section>
-	<section class="relative bg-darkBackground">
-		<div class="container_lg px-5 2xl:px-0">
-			<div class="-translate-y-16 lg:-translate-y-32">
-				<!-- <img src="/wordpress.jpg" alt="" class="w-full rounded-4xl" /> -->
-				<!-- <img src="/builder.jpeg" alt="" class="w-full rounded-4xl" /> -->
-				<div class="h-[350px] w-full overflow-hidden rounded-4xl lg:h-[550px]">
-					<!-- <img src="/woman_design.webp" alt="" class="h-full w-full object-cover" /> -->
-					<img src="/builder.webp" alt="" class="h-full w-full object-cover object-top" />
+	<section class="relative bg-darkBackground py-10 lg:py-20">
+		<div class="container_xl px-5 2xl:px-0">
+			<h2 class="mb-10 text-center font-rubik text-4xl font-normal text-white lg:mb-20 lg:text-5xl">
+				Some Design Examples
+			</h2>
+			<div class="grid grid-cols-1 gap-20 lg:grid-cols-2">
+				<div class="relative">
+					<div class="relative mb-5 h-[300px] lg:h-[550px]">
+						<img
+							src="/carma.jpg"
+							alt="Carma"
+							class="h-full w-full rounded-2xl object-cover object-top"
+						/>
+						<a
+							href="."
+							class="absolute right-5 bottom-5 rounded-full border border-black bg-black px-5 py-2 font-karla text-base font-light text-white"
+						>
+							View Website
+						</a>
+					</div>
+
+					<h3 class="relative mb-5 font-rubik text-3xl font-normal text-white lg:text-4xl">
+						Carma
+					</h3>
+					<div class="relative flex flex-row flex-wrap items-center gap-3">
+						<ProjectPill text="Wordpress" />
+						<ProjectPill text="Web Design" />
+					</div>
 				</div>
-				<div
-					class="mt-10 flex flex-col items-start justify-center gap-5 lg:mt-16 lg:flex-row lg:items-center lg:gap-10"
-				>
-					<p class="flex items-center gap-2 font-karla text-xl font-light text-white">
-						<img src="/circle_check.svg" alt="" class="h-7 w-7" />
-						Proven CMS
-					</p>
-					<p class="flex items-center gap-2 font-karla text-xl font-light text-white">
-						<img src="/circle_check.svg" alt="" class="h-7 w-7" />
-						Easy to Manage Content
-					</p>
-					<p class="flex items-center gap-2 font-karla text-xl font-light text-white">
-						<img src="/circle_check.svg" alt="" class="h-7 w-7" />
-						Rapid Development
-					</p>
+				<div class="relative">
+					<div class="relative mb-5 h-[300px] lg:h-[550px]">
+						<img
+							src="/smiley.jpg"
+							alt="Smiley Aesthetics"
+							class="h-full w-full rounded-2xl object-cover object-top"
+						/>
+						<a
+							href="."
+							class="absolute right-5 bottom-5 rounded-full border border-black bg-black px-5 py-2 font-karla text-base font-light text-white"
+						>
+							View Website
+						</a>
+					</div>
+
+					<h3 class="relative mb-5 font-rubik text-3xl font-normal text-white lg:text-4xl">
+						Smiley Aesthetics
+					</h3>
+					<div class="relative flex flex-row flex-wrap items-center gap-3">
+						<ProjectPill text="Wordpress" />
+						<ProjectPill text="Web Design" />
+					</div>
+				</div>
+				<div class="relative">
+					<div class="relative mb-5 h-[300px] lg:h-[550px]">
+						<img
+							src="/connie_chadwick.jpg"
+							alt="Connie Chadwick Law"
+							class="relative h-full w-full rounded-2xl object-cover object-top"
+						/>
+						<a
+							href="."
+							class="absolute right-5 bottom-5 rounded-full border border-black bg-black px-5 py-2 font-karla text-base font-light text-white"
+						>
+							View Website
+						</a>
+					</div>
+
+					<h3 class="mb-5 font-rubik text-3xl font-normal text-white lg:text-4xl">
+						Connie Chadwick Law
+					</h3>
+					<div class="flex flex-row flex-wrap items-center gap-3">
+						<ProjectPill text="Web Design" />
+						<ProjectPill text="Headless Wordpress" />
+						<ProjectPill text="Javascript" />
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
 	<section class="pt-10 pb-10 lg:pt-20 lg:pb-20">
 		<div class="container_xl px-5 2xl:px-0">
 			<h2
