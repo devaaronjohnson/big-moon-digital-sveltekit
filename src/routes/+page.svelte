@@ -1,37 +1,37 @@
 <script>
 	import { ProjectPill } from '$components';
 
-	import { onMount } from 'svelte';
-	import Splide from '@splidejs/splide';
-	import '@splidejs/splide/dist/css/splide.min.css';
+	// import { onMount } from 'svelte';
+	// import Splide from '@splidejs/splide';
+	// import '@splidejs/splide/dist/css/splide.min.css';
 
-	let splideRoot;
-	let slides = $state(['First', 'Second', 'Third']); // runes reactivity
+	// let splideRoot;
+	// let slides = $state(['First', 'Second', 'Third']); // runes reactivity
 
-	const { data } = $props();
+	// const { data } = $props();
 
-	let testimonials = data.testimonials;
+	// let testimonials = data.testimonials;
 
-	$effect(() => {
-		console.log(data);
-	});
+	// $effect(() => {
+	// 	console.log(data);
+	// });
 
-	onMount(() => {
-		const splide = new Splide(splideRoot, {
-			padding: '2rem',
-			type: 'loop',
-			perPage: 1,
-			perMove: 1,
-			breakpoints: {
-				640: {
-					padding: '1rem'
-				}
-			}
-		});
-		splide.mount();
+	// onMount(() => {
+	// 	const splide = new Splide(splideRoot, {
+	// 		padding: '2rem',
+	// 		type: 'loop',
+	// 		perPage: 1,
+	// 		perMove: 1,
+	// 		breakpoints: {
+	// 			640: {
+	// 				padding: '1rem'
+	// 			}
+	// 		}
+	// 	});
+	// 	splide.mount();
 
-		return () => splide.destroy();
-	});
+	// 	return () => splide.destroy();
+	// });
 
 	// import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 	// import '@splidejs/splide/css';
@@ -66,9 +66,10 @@
 
 			<div class="mt-8 flex flex-row items-center justify-center lg:mt-16">
 				<div
-					class="h-[300px] w-full overflow-hidden rounded-4xl border-12 border-white/20 lg:h-[500px]"
+					class="h-[350px] w-full overflow-hidden rounded-4xl border-12 border-white/20 lg:h-[500px]"
 				>
-					<img src="/woman_design.webp" alt="" class="h-full w-full object-cover" />
+					<!-- <img src="/woman_design.webp" alt="" class="h-full w-full object-cover" /> -->
+					<img src="/web_design_hero.webp" alt="" class="h-full w-full object-cover object-top" />
 				</div>
 			</div>
 		</div>
@@ -95,7 +96,7 @@
 				</div>
 				<div class="w-full lg:flex-1">
 					<div class="h-[250px] overflow-hidden rounded-2xl lg:h-[350px]">
-						<img src="/sample_preview.jpeg" alt="" class="h-full w-full object-cover" />
+						<img src="/all_phases.webp" alt="" class="h-full w-full object-cover" />
 					</div>
 				</div>
 			</div>
@@ -143,11 +144,6 @@
 							>Learn More</a
 						>
 					</div>
-					<!-- <ul class="list-disc pl-5">
-						<li class="font-karla text-xl font-light">User flows that boost engagement</li>
-						<li class="font-karla text-xl font-light">Mobile-first, award worthy interfaces</li>
-						<li class="font-karla text-xl font-light">Prototypes in 72 hours or less</li>
-					</ul> -->
 				</div>
 				<div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
 					<div class="gap-3=5 mb-3 flex flex-row items-center">
@@ -170,27 +166,6 @@
 						>
 					</div>
 				</div>
-				<!-- <div class="rounded-2xl bg-white p-8 shadow-lg lg:p-12">
-					<div class="gap-3=5 mb-3 flex flex-row items-center">
-						<img src="/svelte_full.webp" alt="" class="mr-2 h-12" />
-						<img src="/react.webp" alt="" class="h-12" />
-					</div>
-					<h3 class="mb-5 font-rubik text-3xl font-normal text-darkestBlue">
-						Javascript Development
-					</h3>
-					<p class="mb-5 font-karla text-xl font-light">
-						In some cases there is a need for a completely customized solution. Svelte and React
-						both have great application frameworks and can be connected to a myriad of backend
-						solutions. Schedule a call and we can talk through any need you have.
-					</p>
-					<div class="flex items-center justify-start">
-						<a
-							href="/"
-							class="font-karla text-lg font-normal text-darkestBlue uppercase underline transition-all duration-200"
-							>Learn More</a
-						>
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</section>
@@ -219,7 +194,7 @@
 						Carma
 					</h3>
 					<div class="relative flex flex-row flex-wrap items-center gap-3">
-						<ProjectPill text="Wordpress Development" />
+						<ProjectPill text="Wordpress" />
 						<ProjectPill text="Web Design" />
 					</div>
 				</div>
@@ -242,7 +217,7 @@
 						Smiley Aesthetics
 					</h3>
 					<div class="relative flex flex-row flex-wrap items-center gap-3">
-						<ProjectPill text="Wordpress Development" />
+						<ProjectPill text="Wordpress" />
 						<ProjectPill text="Web Design" />
 					</div>
 				</div>
@@ -267,7 +242,7 @@
 					<div class="flex flex-row flex-wrap items-center gap-3">
 						<ProjectPill text="Web Design" />
 						<ProjectPill text="Headless Wordpress" />
-						<ProjectPill text="Javascript Development" />
+						<ProjectPill text="Javascript" />
 					</div>
 				</div>
 			</div>
