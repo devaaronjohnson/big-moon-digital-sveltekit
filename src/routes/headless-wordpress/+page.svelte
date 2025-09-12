@@ -1,6 +1,6 @@
 <main class="relative overflow-x-hidden">
 	<header class="relative bg-darkBackground pt-32 pb-10 lg:pt-44 lg:pb-20">
-		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-[0.03]" />
+		<img src="/digital_moon.svg" alt="" class="absolute top-0 left-[50%] w-full opacity-[0.05]" />
 		<div class="container_xl px-5 2xl:px-0">
 			<div class="flex flex-col items-center gap-10 lg:flex-row lg:gap-20">
 				<div class="flex-1">

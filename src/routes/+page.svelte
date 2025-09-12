@@ -274,7 +274,7 @@
 									? ''
 									: 'review_text'}"
 							>
-								{testimonial.node.testimonialsContent.testimonial}
+								{@html testimonial.node.testimonialsContent.testimonial}
 							</p>
 							<button
 								onclick={(e) => {
