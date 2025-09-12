@@ -6,7 +6,6 @@
 				<p class="mt-5 font-karla text-lg font-light text-black">
 					We can build you the greatest damn website.
 				</p>
-				<!-- <p class="mb-5 font-karla text-lg font-light text-black">615-230-1232</p> -->
 			</div>
 			<div class="w-full pt-0 lg:w-[150px] lg:pt-20">
 				<h4 class="mb-3 font-rubik text-2xl font-bold">Quick Links</h4>
@@ -32,13 +31,10 @@
 						<a href="/">Web Design</a>
 					</li>
 					<li class="font-karla text-lg leading-loose font-light">
-						<a href="/wordpress-development">Wordpress Development</a>
+						<a href="/wordpress-development">Wordpress</a>
 					</li>
 					<li class="font-karla text-lg leading-loose font-light">
 						<a href="/headless-wordpress">Headless Wordpress</a>
-					</li>
-					<li class="font-karla text-lg leading-loose font-light">
-						<a href="/">Javascript Development</a>
 					</li>
 				</ul>
 			</div>
