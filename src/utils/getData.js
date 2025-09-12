@@ -95,9 +95,11 @@ export async function getHome() {
             content
             title
             slug
+            id
             testimonialsContent {
               company
               title
+              testimonial
             }
           }
         }
