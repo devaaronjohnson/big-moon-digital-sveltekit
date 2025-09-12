@@ -121,7 +121,7 @@
 					</p>
 					<div class="flex items-center justify-start">
 						<a
-							href="/"
+							href="/web-design"
 							class="font-karla text-lg font-normal text-darkestBlue uppercase underline transition-all duration-200"
 							>Learn More</a
 						>
@@ -139,7 +139,7 @@
 					</p>
 					<div class="flex items-center justify-start">
 						<a
-							href="/"
+							href="/wordpress"
 							class="font-karla text-lg font-normal text-darkestBlue uppercase underline transition-all duration-200"
 							>Learn More</a
 						>
@@ -160,7 +160,7 @@
 					</p>
 					<div class="flex items-center justify-start">
 						<a
-							href="/"
+							href="/headless-wordpress"
 							class="font-karla text-lg font-normal text-darkestBlue uppercase underline transition-all duration-200"
 							>Learn More</a
 						>

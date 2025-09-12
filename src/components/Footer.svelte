@@ -31,7 +31,7 @@
 						<a href="/">Web Design</a>
 					</li>
 					<li class="font-karla text-lg leading-loose font-light">
-						<a href="/wordpress-development">Wordpress</a>
+						<a href="/wordpress">Wordpress</a>
 					</li>
 					<li class="font-karla text-lg leading-loose font-light">
 						<a href="/headless-wordpress">Headless Wordpress</a>

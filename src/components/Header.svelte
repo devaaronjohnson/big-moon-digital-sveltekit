@@ -67,7 +67,7 @@
 												onclick={() => {
 													showServices = false;
 												}}
-												href="/wordpress-development"
+												href="/wordpress"
 												class="relative"
 											>
 												Wordpress
@@ -84,17 +84,6 @@
 												Headless Wordpress
 											</a>
 										</li>
-										<!-- <li class="font-karla text-lg leading-relaxed font-light text-black">
-											<a
-												onclick={() => {
-													showServices = false;
-												}}
-												href="/javascript-development"
-												class="relative"
-											>
-												Javascript Development
-											</a>
-										</li> -->
 									</ul>
 								</div>
 							{/if}
@@ -198,7 +187,7 @@
 				onclick={() => {
 					showMobileMenu = false;
 				}}
-				href="/wordpress-development"
+				href="/wordpress"
 				class="font-bi text-center text-4xl font-normal">Wordpress</a
 			>
 		</p>
